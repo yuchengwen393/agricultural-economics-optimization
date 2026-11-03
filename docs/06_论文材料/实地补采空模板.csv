@@ -1,2 +1,0 @@
-﻿order_id,confirmed_at,farmer_id_anonymized,crop_stage,diagnosis_confirmed,area_mu,lon,lat,entry_lon,entry_lat,entry_verified,ground_compatible,drug_label_confirmed,release_time,due_time,obstacle_checked,water_point_id,team_id,vehicle_id,battery_state,quote_package_id,accepted_price_yuan,alternative_revenue_yuan,gps_travel_minutes,purpose,generation_logic
-,,,,,,,,,,,,,,,,,,,,,,,,实地采集空模板；本行不是样本,模型缺口字段反推，须采集真实值

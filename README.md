@@ -2,7 +2,7 @@
 
 > 基于合同任务包的多目标混合整数规划与风险决策 · 农业经济建模优化项目
 
-本仓库是对「空天地信息支持下辽宁丘陵玉米植保协同调度优化研究」项目的完整整理，包含**代码、数据集、求解结果、建模方法**与**说明文档**，可按分类复现从原始数据审计到求解验证的全流程。
+本仓库是「空天地信息支持下辽宁丘陵玉米植保协同调度优化研究」的建模与复现整理，只保留**建模代码、绘图代码、数据分析代码、核心数据与求解结果**，以及一份**完整的方法说明**。论文正文、文本生成脚本与冗余中间产物均已按隐私与精简要求剔除。
 
 ---
 
@@ -28,25 +28,23 @@
 
 ```
 .
-├── code/          # ① 代码：数据准备、建模、求解、绘图、论文生成脚本
-│   ├── optimization.py          # 核心：合同任务包 MILP + 融合算法（贪心/ALNS/DP/鲁棒）
-│   ├── prepare_data.py          # 数据处理：空间单元、天气窗口、道路与时间矩阵
-│   ├── make_figures.py          # 图表生成
-│   ├── plot_paper_standard.py   # 标准论文图绘制
-│   ├── finalize_paper_figures.py# 论文图定稿
-│   ├── export_model.py          # 稀疏模型导出（LP/矩阵）
-│   ├── fetch_sources.py         # 公开数据下载（可选开关 FetchPublic）
-│   ├── audit_inputs.py          # 原始数据审计
-│   ├── assemble_report.py       # 结果汇总
-│   ├── build_complete_project_package.py  # 完整交付包构建
-│   ├── supplementary.py         # 补充实验（敏感性/对照/压力测试）
-│   ├── validate_outputs.py      # 独立可行性验证
-│   ├── run_pipeline.ps1         # 一键复现入口
-│   ├── config.json              # 全部经营假设与参数
-│   ├── requirements.lock.txt    # 依赖锁定
-│   └── paper_build/             # 论文生成/核验脚本
+├── code/          # ① 代码：建模、绘图、数据分析三类 + 复现入口
+│   ├── optimization.py           # 建模：合同任务包 MILP + 融合算法（贪心/ALNS/DP/鲁棒/CVaR）
+│   ├── export_model.py           # 建模：稀疏模型导出（LP/矩阵）
+│   ├── prepare_data.py           # 数据分析：空间单元、天气窗口、道路与时间矩阵
+│   ├── audit_inputs.py           # 数据分析：原始数据审计与来源台账
+│   ├── fetch_sources.py          # 数据分析：公开数据下载（可选开关 FetchPublic）
+│   ├── supplementary.py          # 数据分析：补充实验（敏感性/对照/压力测试）
+│   ├── validate_outputs.py       # 数据分析：独立可行性验证
+│   ├── make_figures.py           # 绘图：图表生成
+│   ├── plot_paper_standard.py    # 绘图：标准论文图绘制
+│   ├── finalize_paper_figures.py # 绘图：论文图定稿
+│   ├── plot_added_figures.py     # 绘图：补充图绘制
+│   ├── run_pipeline.ps1          # 复现入口（PowerShell 一键脚本）
+│   ├── config.json               # 全部经营假设与参数
+│   └── requirements.lock.txt     # 依赖锁定
 ├── data/          # ② 数据集：审计台账 + 处理后的输入数据 + 原始道路数据
-│   ├── 01_数据审计/             # 原始文件索引、PDF 抽取文本、数据缺口与使用边界
+│   ├── 01_数据审计/             # 原始文件索引、获取台账、数据缺口与使用边界
 │   ├── 02_处理数据/             # 空间单元、天气窗口、道路/时间矩阵、研究区摘要
 │   └── liaoning_input_copy.pbf  # OpenStreetMap 辽宁原始道路数据（约 30 MB）
 ├── modeling/      # ③ 建模相关：数学模型、算法说明、稀疏 MILP 导出
@@ -54,15 +52,12 @@
 │       ├── 数学模型与算法说明.md
 │       ├── 论文创新点与论证边界.md
 │       └── 主模型导出/           # A_sparse.npz、model.lp、variables/constraints.csv
-├── results/       # ④ 结果：求解结果、图表、验收核对
+├── results/       # ④ 结果：求解结果、验收核对、最终论文配图
 │   ├── 04_求解结果/             # 主方案、路线池、算法对照、灵敏度、鲁棒/随机方案
-│   ├── 05_论文图表/             # 9 幅论文图（PNG/SVG）
 │   ├── 07_验收核对/             # 独立约束与结果一致性核对
-│   ├── 08_标准论文图/           # 10 幅复合标准图（600dpi PNG/SVG/PDF 图集）
-│   └── 10_论文配图/             # 最终 15 幅论文配图（PNG/SVG/绘图数据/矢量图集）
+│   └── 10_论文配图/             # 最终 15 幅论文配图（600dpi PNG/SVG/绘图数据/矢量图集）
 └── docs/          # ⑤ 说明文档
     ├── 00_工作计划.md           # 全流程计划与阶段依赖
-    ├── 06_论文材料/             # 完整分析与求解报告、参数证据、参考文献、实地模板
     └── 文件用途与生成逻辑清单.csv  # 全量文件用途与生成逻辑台账
 ```
 
@@ -87,8 +82,8 @@
 5. **求解与核验**（`code/supplementary.py`、`code/validate_outputs.py`、`results/04_求解结果`、`results/07_验收核对`）
    进行对照、多目标、预算/服务公平/天气灵敏度与独立可行性核验；主矩阵独立重建、小实例穷举与事件/成本核验一致。
 
-6. **输出**（`results`、`docs`、`code/paper_build`）
-   输出模型公式、结果、代码、图表、数据字典与文件用途清单。
+6. **可视化输出**（`code/make_figures.py`、`code/plot_paper_standard.py`、`code/finalize_paper_figures.py`、`code/plot_added_figures.py`、`results/10_论文配图`）
+   输出模型公式、结果、代码、图表与文件用途清单。
 
 ---
 
@@ -123,4 +118,4 @@
 
 ## 七、隐私说明
 
-本仓库不含作者姓名、学校、指导教师及队员信息，也不含论文正文文档（docx/pdf）与知网查重报告；相关原始文件已按隐私要求剔除。
+本仓库不含作者姓名、学校、指导教师及队员信息，也不含论文正文文档（docx/pdf）、知网查重报告及文本/论文生成脚本；相关原始文件已按隐私要求剔除。

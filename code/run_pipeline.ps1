@@ -7,7 +7,7 @@ $taskRoot = 'D:\Desktop\code'
 if (-not (Test-Path -LiteralPath $taskPython)) { throw '未找到本次Python环境；请先依据requirements.lock.txt准备Python3.12依赖。' }
 $taskSteps = @('audit_inputs.py')
 if ($FetchPublic) { $taskSteps += 'fetch_sources.py' }
-$taskSteps += @('prepare_data.py','optimization.py','supplementary.py','export_model.py','assemble_report.py','make_figures.py','plot_paper_standard.py','validate_outputs.py')
+$taskSteps += @('prepare_data.py','optimization.py','supplementary.py','export_model.py','make_figures.py','plot_paper_standard.py','finalize_paper_figures.py','validate_outputs.py')
 foreach ($taskStep in $taskSteps) {
     Write-Host "运行 $taskStep"
     & $taskPython (Join-Path $taskRoot $taskStep)
