@@ -1,0 +1,36 @@
+用途：原始PDF检索与参数证据提取。生成逻辑：pypdf逐页抽取，表格须回查原件。
+来源：D:\Desktop\jianmo\03_地形土壤与通行条件\3-4_SoilGrids_GEE访问说明.pdf
+SoilGrids250m 2.0 data are available on GEE as as Community contributed Datasets. Currently,
+layers representing the mean of predictive distribution are served. The layers quantifying the
+median, the 5th and the 95th percentiles of the distributions will be uploaded shortly.
+Each asset is an image with 6 bands, a band for each depth (0-5cm, 5-15cm,15-30cm,30-60cm,60-
+100cm,100-200cm).
+Updated list of available layers as GEE assets
+Acronym Property Assets on GEE
+bdod Bulk density bdod_mean
+cec Cation exchange capacity at pH7 cec_mean
+cfvo Coarse fragments cfvo_mean
+clay Clay clay_mean
+nitrogen Total Nitrogen nitrogen_mean
+ocd Organic carbon density ocd_mean
+ocs Organic carbon stock ocs_mean
+phh2o pH in H2O phh2o_mean
+sand Sand sand_mean
+silt Silt silt_mean
+soc Soil organic carbon soc_mean
+Import assets in GEE
+1. Javascript
+2. python
+var image = ee.Image("projects/soilgrids-isric/layer_name");
+ SoilGrids on Google Earth Engine (GEE) 
+Export SoilGrids from Google Earth Engine to One Drive
+The following script exports selected SoilGrids soil property layers via Google Earth Engine to
+Google Drive, allowing users to specify the region, soil property variable, resolution, and whether
+to export each depth layer as a separate file or all layers in one file
+https://code.earthengine.google.com/08f74bc377b253523cd4cffe4268f66d
+Example script in Google Earth Engine code editor
+The following script displays a sand content layer from SoilGrids with customized visualization
+settings
+https://code.earthengine.google.com/9e11d149a1d28d10619fa5353b895ed2
+Last updated on 2025-12-04
+image = ee.Image("projects/soilgrids-isric/layer_name");

@@ -1,0 +1,27 @@
+{
+  "purpose": "真实空间和缺失字段统计",
+  "generation_logic": "本脚本输出聚合",
+  "bounds": [
+    119.57,
+    41.35,
+    119.71,
+    41.45
+  ],
+  "maize_2020_mu": 30835.422190896224,
+  "selected_units": 50,
+  "selected_area_mu": 2175.286229925221,
+  "candidate_units": 408,
+  "osm_nodes": 3345,
+  "osm_edges": 3511,
+  "strong_components": 14,
+  "surface_missing_share": 0.6371404158359442,
+  "width_missing_share": 1.0,
+  "median_lastmile_gap_m": 376.4651544982913,
+  "max_lastmile_gap_m": 1195.5537186613165,
+  "depot": {
+    "lon": 119.6398392,
+    "lat": 41.3992866,
+    "status": "路网锚点，非真实合作社"
+  },
+  "ground_primary_mode": "无入口核验，主算例不启用地面喷雾机"
+}

@@ -1,0 +1,11 @@
+{
+  "purpose": "独立导出矩阵求解与主程序目标核对",
+  "generation_logic": "重建稀疏模型并重新求解；不共享主程序的矩阵构造函数",
+  "variables": 1090,
+  "constraints": 58,
+  "nonzeros": 8847,
+  "status": 0,
+  "exported_loss_mu": 540.686250236766,
+  "original_loss_mu": 540.6862502367721,
+  "objective_agrees": true
+}

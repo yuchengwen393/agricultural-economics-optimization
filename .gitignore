@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 缓存与临时文件
+*.log
+.DS_Store
+Thumbs.db
+~$*.docx
+~$*.xlsx

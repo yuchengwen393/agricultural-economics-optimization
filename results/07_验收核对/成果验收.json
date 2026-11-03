@@ -1,0 +1,1065 @@
+{
+  "purpose": "最终交付验收、数值一致性与独立约束核对",
+  "generation_logic": "validate_outputs.py读取保存产物独立核算；不共用主程序模拟/矩阵函数",
+  "passed": true,
+  "checks_count": 211,
+  "checks": [
+    {
+      "check": "EXT1班次结束",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT1飞行窗口",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT1车机同步",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT1起降位置",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT1药液台账",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT1架次能量",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT1充电器与冷却",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT1电池独立复用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT1无人机周转互斥",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT1任务面积守恒",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT1独立成本重算",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT1外援参与",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT2班次结束",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT2飞行窗口",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT2车机同步",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT2起降位置",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT2药液台账",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT2架次能量",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT2充电器与冷却",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT2电池独立复用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT2无人机周转互斥",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT2任务面积守恒",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT2独立成本重算",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EXT2外援参与",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN3班次结束",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN3飞行窗口",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN3车机同步",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN3起降位置",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN3药液台账",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN3架次能量",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN3充电器与冷却",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN3电池独立复用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN3无人机周转互斥",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN3任务面积守恒",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN3独立成本重算",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN1班次结束",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN1飞行窗口",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN1车机同步",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN1起降位置",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN1药液台账",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN1架次能量",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN1充电器与冷却",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN1电池独立复用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN1无人机周转互斥",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN1任务面积守恒",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN1独立成本重算",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN2班次结束",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN2飞行窗口",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN2车机同步",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN2起降位置",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN2药液台账",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN2架次能量",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN2充电器与冷却",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN2电池独立复用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN2无人机周转互斥",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN2任务面积守恒",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OWN2独立成本重算",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "唯一覆盖",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "主面积汇总",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "支出汇总与预算",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "电量汇总",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "架次汇总",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "分组承诺_near_road",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "分组承诺_far_road",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保存方案满足独立矩阵",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "check": "保存方案目标与独立矩阵",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "独立二级成本一致",
+      "passed": true,
+      "detail": "{'purpose': '独立二级成本最优性复核', 'generation_logic': 'NPZ矩阵加固定主目标容差cut，mip_rel_gap=0', 'status': 0, 'mip_gap': 0.0, 'objective': 8182.944037701617, 'reference_cost': 8182.94403770233, 'seconds': 0.22350519999599783}"
+    },
+    {
+      "check": "独立可行性验证.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "小实例穷举核对.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "导出模型独立求解",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "留出61日期且剔除代表日",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "三政策配对相同日期",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "留出汇总_SAA_CVaR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "留出汇总_nominal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "留出汇总_robust_gamma2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "地面喷雾未未经核验启用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "矩阵形状与有限非负",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "9图PNG/SVG",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "图像说明_图1_空间与任务排序",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "图像说明_图2_天气窗口",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "图像说明_图3_算法对照",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "图像说明_图4_预算公平权衡",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "图像说明_图5_ALNS收敛",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "图像说明_图6_执行甘特图",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "图像说明_图7_资源瓶颈",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "图像说明_图8_天气风险",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "图像说明_图9_服务承诺代价",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "源码语法",
+      "passed": true,
+      "detail": "全部根目录Python可编译"
+    },
+    {
+      "check": "CSV用途逻辑_文件用途与生成逻辑清单.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_原件URL线索.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_原始文件索引.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_全部候选服务网格.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_县域天气窗口_年统计.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_县域天气窗口_日统计.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_建平_逐小时窗口.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_植保相关投档设备.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_气象交叉产品核对.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_气象列缺失率.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_研究区OSM节点.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_研究区OSM路段.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_研究服务单元.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_转场时间矩阵.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_辽宁玉米面积_原包派生记录.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_ALNS收敛轨迹.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_主方案事件表.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_主方案任务完成表.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_主方案班组摘要.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_动态规划子路线实验.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_外援参与制度对照.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_接入信息条件对照.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_接入信息条件对照_增强列池.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_服务承诺最低预算.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_求解规模预实验.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_留出天气汇总.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_留出年份天气压力测试.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_真实子实例规模实验.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_算法对照.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_补给与无人机瓶颈灵敏度.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_补给与无人机瓶颈灵敏度_增强列池.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_转场扰动压力汇总.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_转场扰动配对压力测试.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_预算与公平灵敏度.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_图表用途与生成逻辑.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_参数证据与不确定性表.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_参考资料可追溯索引.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_实地补采空模板.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_验收检查明细.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_图表清单与生成逻辑.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_标准文件清单.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_绘图数据来源与校验和.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_constraints.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_variables.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_绘图核对明细.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_01_支持面积频数.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_01_空间单元.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_02_县域均值范围.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_02_建平日窗口.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_02_日窗口频数.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_03_算法实际行.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_04_服务承诺支出界.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_04_预算扫描.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_05_增强池资源敏感性.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_06_61日期天气原样本.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_06_Gamma名义表现.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_06_天气风险汇总.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_06_配对兑现原样本.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_07_OWN1库存.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_07_资源事件.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_08_外援制度.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_08_接入条件收益.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_09_DP排序核验.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_09_三种子轨迹.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_09_搜索实际行.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_09_真实子实例.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_10_接入距离.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_10_跨产品误差.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV用途逻辑_Fig_10_道路缺失比例.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_config.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_CSV结构摘要.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_PDF抽取清单.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_公开补充获取台账.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_审计汇总.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_数据字典_用途与生成逻辑.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_研究区摘要.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_主方案.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_主模型求解日志.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_候选路线池.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_多目标代表方案.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_小实例穷举核对.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_服务承诺代表计划.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_灵敏度求解日志.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_独立可行性验证.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_运行环境.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_随机风险方案.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_鲁棒方案_Gamma1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_鲁棒方案_Gamma2.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_鲁棒方案_Gamma4.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_成果验收.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_独立二级成本核对.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_导出模型核对.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON用途逻辑_绘图验收.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_数据缺口与使用边界.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_参数证据与不确定性表.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_参考文献与资料汇编.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_完整论文分析与求解报告.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_参考文献与资料汇编.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_数据缺口与使用边界.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_数学模型与算法说明.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_关键结果与引用口径.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_图注.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_README_标准论文图.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_主方案.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_主方案任务完成表.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_主方案班组摘要.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_参数证据与不确定性表.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "链接存在_实地补采说明.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_DEM_N41E119.tif",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_Bertsimas_Sim_2004.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_SciPy_milp.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_Copernicus_DEM_AWS.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_Copernicus_DEM_product.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_OpenMeteo_archive.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_DJI_T50_specs.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_CCD_Maize_2023.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_ERA5Land_2021.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_CLCD_2021.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_CVaR_2000.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_NASA_POWER_hourly.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_Geofabrik_Liaoning.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "下载原件SHA_Competition_2026.html",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "limits": "仅模型内部与文件完整性核对；无入口/诊断/经营真值，不认证实地导航及真实利润",
+  "visual_qa": "全部9图由主代理查看，中文字/图例可读；甘特图图例移到图外避免遮挡，承诺支出图标识限时点与上下界；不自动等同现场可执行性"
+}

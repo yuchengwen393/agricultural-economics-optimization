@@ -1,0 +1,7 @@
+﻿lower_mu,upper_mu,units,purpose,generation_logic
+15,30,20,Fig_01 支持面积频数精确绘图数据,numpy.histogram左闭右开，最后区间含右端点；样本50
+30,45,11,Fig_01 支持面积频数精确绘图数据,numpy.histogram左闭右开，最后区间含右端点；样本50
+45,60,8,Fig_01 支持面积频数精确绘图数据,numpy.histogram左闭右开，最后区间含右端点；样本50
+60,75,3,Fig_01 支持面积频数精确绘图数据,numpy.histogram左闭右开，最后区间含右端点；样本50
+75,90,3,Fig_01 支持面积频数精确绘图数据,numpy.histogram左闭右开，最后区间含右端点；样本50
+90,110,5,Fig_01 支持面积频数精确绘图数据,numpy.histogram左闭右开，最后区间含右端点；样本50

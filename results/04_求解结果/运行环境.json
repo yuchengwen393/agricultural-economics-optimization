@@ -1,0 +1,27 @@
+{
+  "purpose": "复现环境",
+  "generation_logic": "运行时版本及种子记录",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "seed": 20261002,
+  "nominal_date": "2025-08-06",
+  "training_dates": [
+    "2015-08-03",
+    "2016-08-06",
+    "2017-08-09",
+    "2018-08-12",
+    "2019-08-15",
+    "2020-08-18",
+    "2021-08-21",
+    "2022-08-24",
+    "2023-08-27"
+  ],
+  "source_task_count": 50,
+  "source_area_mu": 2175.2862299252215,
+  "pool_routes": 1040,
+  "cache_size": 20000,
+  "Gurobi_used": false,
+  "solver": "SciPy milp / HiGHS"
+}

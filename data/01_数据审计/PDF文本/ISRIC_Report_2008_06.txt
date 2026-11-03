@@ -1,0 +1,1253 @@
+用途：原始PDF检索与参数证据提取。生成逻辑：pypdf逐页抽取，表格须回查原件。
+来源：D:\Desktop\jianmo\03_地形土壤与通行条件\3-7_SOTER_CN中国土壤数据\SOTER_CN\ISRIC_Report_2008_06.pdf
+   
+ISRIC report 2008/06  
+GLADA report 2008/03 
+ 
+Global Assessment of Land Degradation  
+ 
+Soil and landform properties for 
+LADA partner countries 
+(Argentina, China, Cuba, Senegal and The Gambia,  
+South Africa and Tunisia) 
+ 
+Koos Dijkshoorn 
+Vincent van Engelen 
+Jan Huting 
+(October 2008) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FOOD AND AGRICULTURE ORGANIZATION OF THE UNITED NATIONS  
+All rights reserved. No part of this publication may b e reproduced, stored in a retrieval 
+system, or transmitted in any form or by any means, el ectronic, mechanical, photo-copying 
+or otherwise, without the prior permission of the copyri ght owner. Applications for such 
+permission, with a statement of the purpose and extent  of the reproduction, should be 
+addressed to the Director, ISRIC - World Soil Informatio n, PO Box 353, 6700 AJ 
+Wageningen, the Netherlands. 
+ 
+The designations employed and the presentation of materials in electronic forms do not imply 
+the expression of any opinion whatsoever on the part of I SRIC or FAO concerning the legal 
+status of any country, territory, city or area or of is a uthorities, or concerning the 
+delimitation of its frontiers or boundaries. 
+ 
+ 
+Copyright © 2008 ISRIC - World Soil Information and FAO 
+ 
+ 
+    
+ 
+ 
+Disclaimer: 
+While every effort has been made to ensure that the d ata are accurate and reliable, ISRIC 
+and FAO cannot assume liability for damages caused by  inaccuracies in the data or as a 
+result of the failure of the data to function on a parti cular system. ISRIC and FAO provide no 
+warranty, expressed or implied, nor does an authorized distribution of the data set constitute 
+such a warranty. ISRIC and FAO reserve the right to modify any information in this 
+document and related data sets without notice. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Correct citation:  
+Dijkshoorn JA, van Engelen VWP and Huting JRM 2008. S oil and landform properties for 
+LADA partner countries (Argentina, China, Cuba, Sene gal and The Gambia, South Africa and 
+Tunisia). ISRIC report 2008/06 and GLADA report 2008/03, ISRIC – World Soil Information 
+and FAO, Wageningen (23 pp with data set) 
+http://www.isric.org/isric/Webdocs/Docs/ISRIC_Report_2008_06.pdf  
+ 
+ 
+ 
+Inquiries:  
+c/o Director, ISRIC – World Soil Information 
+PO Box 353 
+6700 AJ Wageningen 
+The Netherlands 
+Telefax: +31-(0)317-471700 
+E-mail: 
+soil.isric@wur.nl  
+Web: www.isric.org  
+ 
+ 
+ 
+Front cover:  Thematic maps of the southern part of Santa Cruz Province (Argentina)  
+ 
+Soil and landform properties – LADA countries i 
+ 
+ 
+ 
+CONTENTS  
+ 
+SUMMARY ...................................................................................................ii 
+ 
+1 INTRODUCTION................................................................................... 1 
+2 METHODS AND MATERIALS ................................................................. 2 
+2.1  SOTER methodology ...................................................................... 2 
+2.2  GIS based methodology for SOTER landform mapping ........................ 3 
+2.3  Data sources ................................................................................ 4 
+2.3.1  Spatial data source............................................................... 4 
+2.3.2  Primary soil data.................................................................. 4 
+3 RESULTS AND DISCUSSION................................................................. 6 
+3.1  General........................................................................................ 6 
+3.2  Argentina ..................................................................................... 6 
+3.3  China........................................................................................... 7 
+3.4  Cuba ........................................................................................... 8 
+3.5  South Africa ................................................................................. 9 
+3.6  Senegal and The Gambia...............................................................10  
+3.7  Tunisia........................................................................................11  
+4 CONCLUSIONS....................................................................................13  
+ACKNOWLEDGEMENTS..............................................................................14  
+REFERENCES.............................................................................................14  
+APPENDICES.............................................................................................17  
+Appendix 1: Hierarchy of major landforms ...............................................17  
+Appendix 2: Correlation of CPCS classification (CPCS 1967), Revised 
+Legend  (FAO-Unesco 1988), and a tentative WRB Reference Soil 
+Group (IUSS 2006) for Tunisia...........................................................18  
+Appendix 3: Correlation of  CPCS classification (CPCS 1967), Revised 
+Legend  (FAO-Unesco 1988), and a tentative WRB Reference Soil 
+Group (IUSS 2006) for Senegal and The Gambia................................20  
+Appendix 4: Correlation of Senegal profiles, according to the national 
+system, Revised Legend (FAO-Unesco 1988), and  the French 
+system (CPCS 1967)...........................................................................22  
+Appendix 5: Technical information datasets .............................................23  
+ 
+Table 1: 
+ SOTER details per country and component ...................................... 6 
+ 
+Figure 1: 
+ Representation of SOTER units and their database structure .............. 2 
+ 
+ 
+ii Soil and landforms properties – LADA 
+ 
+ 
+ 
+SUMMARY  
+This report presents the activities of ISRIC – World Soil Information executed within 
+the framework of the Global Assessment of Land Degrada tion (GLADA) project as a 
+part of the FAO program Land Degradation Assessment in Dr ylands (LADA). It 
+describes methods for the compilation of enhanced soil i nformation in a soil and 
+terrain database at scale 1:1 million for the six LAD A partner countries: Argentina, 
+China, Cuba, Senegal, South Africa and Tunisia.  
+ 
+The outputs are given in a Soil and Terrain (SOTER) database for each partner 
+country. The databases will be used to sustain the anal yses of the Normalized 
+Difference Vegetation Index (NDVI) and help to assess po ssible causes for 
+prevailing land degradation by correlating NDVI trends with  parameters from the 
+SOTER database.  
+ 
+Keywords: Soil and Terrain (SOTER) database, Global Assessment o f Land 
+Degradation (GLADA), Land Degradation Assessment in Dry lands (LADA), soil data, 
+Argentina, China, Cuba, Senegal, The Gambia, South Africa and Tunisia. 
+ 
+ 
+ 
+Soil and landform properties – LADA countries 1 
+ 
+ 
+ 
+1 INTRODUCTION 
+This report summarises an initial activity of ISRIC – World Soil Information within 
+the framework of the Global Assessment of Land Degradat ion (GLADA), which is 
+part of the FAO program Land Degradation Assessment in Drylands (LADA).  
+ 
+ISRIC’s activities in this program are laid down in a L etter of Agreement PR 35825 
+between the Food and Agriculture Organisation of the Uni ted Nations and ISRIC – 
+World Soil Information, signed in February 2007.  
+ 
+A major task of the GLADA program is a quantitative an d reproducible global 
+assessment of land degradation. This global assessment ha s been carried out by 
+remote sensing and measurement of deviance from local norms for the vegetation 
+cover (Bai  et al.  2008). In this procedure, land degradation has been asses sed by 
+the negative trends in the normalised difference vegetat ion index (NDVI), derived 
+from the reflected wavebands measured by earth-observatio n satellites during the 
+period 1981-2003. Degradation has been identified as ‘hot spots’ on the derived 
+images. The quality indicators of these ‘hot spots’ wil l be derived from secondary 
+remote sensing analysis and based on stratification of the land area according to 
+Soil and Terrain (SOTER) units and land cover. Finall y, these results will be 
+validated (ISRIC - World Soil Information 2006).
+  
+ 
+ISRIC’S include two SOTER-related activities for the 6 LADA partner countries 
+(Argentina, China, Cuba, Senegal, South Africa and Tunisia): 
+ 
+1)  Preparation of a landform map derived from an analysis o f the digital 
+elevation model of the Shuttle Radar Topography Mission (SRTM-90 m DEM) 
+as a first stratification of the land area (Huting  et al.  2008).  
+2)  Enhanced information on soils in a SOTER format that  is relevant for the 
+assessment of soil degradation. 
+ 
+This report describes the procedures followed to compile t he enhanced information 
+on soils for each of the partner countries, at scale 1:1 million. 
+ 
+ 
+ 
+2 Soil and landforms properties – LADA 
+ 
+ 
+ 
+2 METHODS AND MATERIALS 
+2.1  SOTER methodology 
+The SOTER methodology was initially developed for a land resources information 
+system at scale of 1:1 million (van Engelen and Wen 1 995). SOTER consists of a 
+geometric database and an attribute database. The first s tores data on the SOTER 
+units’ location, extent and topology, and the later th e units’ soil and terrain 
+characteristics. 
+ 
+The SOTER procedure is based on the relation between the  physiography 
+(landform), parent material and soils. It identifies ar eas of land with a distinctive 
+and often repetitive, pattern of landform, lithology, s urface form, slope, parent 
+material and soils. The methodology uses a stepwise appro ach identifying major 
+landforms, the terrain unit at its highest level of di stinction, which are than 
+subdivided on basis of differences in parent material and soil properties. The so-
+identified mappable units are called SOTER units (Figure 1); they represent unique 
+combinations of terrain and soil characteristics (Dij kshoorn 2002; van Engelen and 
+Wen 1995). 
+Figure 1: Representation of SOTER units and their d atabase structure 
+ 
+The attribute database consists of several tables; data for terrain units, terrain 
+components and soil components are linked by primary keys . These are unique 
+identifiers. The characteristics of landform and parent  material are described at the 
+highest level. In the terrain unit table, one or more  terrain component(s) (TCID) 
+may be distinguished based on differences in landform and li thology that, due to 
+Soil and landform properties – LADA countries 3 
+ 
+ 
+ 
+the scale of delineation, cannot be shown on the SOTE R map, but can be described 
+in the attribute database. A further discrimination is made in terms of soils, the soil 
+components (SCID), which show the proportion of each s oil type within the terrain 
+component (Figure 1). Soil components are not shown on  the map, but detailed in 
+the attribute database. They can be compared to a soil association or a compound 
+mapping unit (Dijkshoorn 2002; van Engelen and Wen 1995). 
+ 
+Each soil component is characterized by a representativ e soil profile (Figure 1).  
+The soil horizon characteristics of each representat ive profile are stored in the 
+horizon table. Selection and characterization of th e representative profiles are 
+based on the Revised Legend of the Soil Map of the World ( FAO-Unesco 1988) and 
+the World Reference Base for Soil Resources (ISSS  et al.  1998; IUSS 2006). Map 
+units are characterized using (FAO-Unesco 1988), Revi sed Legend, to ensure 
+consistency with earlier SOTER products. 
+ 
+The structure of the SOTER database, definitions of th e SOTER relations, field 
+description, content and coding conventions are detailed i n the SOTER  Database 
+Structure Manual (Tempel 2002).  
+ 
+ 
+ 
+2.2  GIS based methodology for SOTER landform 
+mapping 
+A GIS-procedure based on SOTER criteria (Dobos  et al.  2005) was used to indentify 
+a common topographic format for the terrain units (lan dform). This methodology 
+has been slightly adapted for the use with the LADA partner countries (Huting  et al.  
+2008). The methodology is based on modelling of the 90 m digital elevation data 
+(90m DEM) of the Shuttle Radar Topography Mission (SRTM ) (CGIAR-CSI 2004). 
+This GIS based methodology discriminates on calculated pi xel values of raster cells 
+of the 90m DEM. By applying certain generalisation algo rithms and vectorisation of 
+the raster, new (temporary-terrain) units are indent ified that meet set criteria. To 
+demarcate major landforms according to the SOTER methodo logy, these 
+temporary-terrain units are then grouped on basis of sl ope, elevation and relief 
+intensity criteria. Several clustering procedures have been evaluated. The definition 
+of relief intensity was modified to facilitate digital calculations 1 (see Appendix 1 ). 
+  
+The 90m DEM data were processed with ArcMap’s Spatial A nalyst. Single 
+parameters maps were derived for elevation, slope and relief intensity using SOTER 
+criteria; this gives information on the terrain vari ability. The combination of these 
+parameters is used to generate the ‘SOTER combi-map’, t hat shows terrain units 
+having a defined set of slope, relief intensity and el evation. This SOTER combi-map 
+provides the basis for a classified landform map; it is a lso a helpful tool in terrain 
+analysis. However, the method has still some short f alls. For instance, some 
+combinations of slope and relief intensity do not fit w ell in the SOTER landform 
+classification, in particular for plain versus dissect ed plain. In such cases, slope is 
+kept as most discriminating factor for mapping the SOTER landform.  
+                                         
+ 
+1 Relief intensity – is defined as the median differences within one km 2 circle around the pixel 
+in consideration . 
+4 Soil and landforms properties – LADA 
+ 
+ 
+ 
+The method also fails to discriminate landform on basis of morphology; e.g. plateau 
+- higher lying, level land with a scarp -, or depression  - lower lying, enclosed level 
+land without river outlet -; these are not recognized and both are still classified as a 
+plain. The present GIS-procedures are being refined (Huting  et al.  2008).  
+ 
+Using  the Zonal Statistics Module of ArcGIS 
+© and the 90m DEM data of the 
+identified SOTER units, median values for slope, relief  intensity and values for 
+maximum, minimum and median elevations were calculate d. These values have 
+been added to the attribute data of the terrain table in t he SOTER database to 
+substitute the data from previous assessments. 
+ 
+ 
+ 
+2.3  Data sources 
+2.3.1  Spatial data source 
+The geometric database for the SOTER maps have been made congruous to the 
+Digital Chart of the World (DCW) (DMA 1993), see also (van Engelen  et al.  2005).  
+All maps are in geometric projection (WGS84) and use decimal degrees. 
+ 
+The geometric SOTER maps have been derived from: Argentin a and Cuba from 
+SOTERLAC (Dijkshoorn  et al.  2005; FAO  et al.  1998) and South Africa from 
+SOTERSAF (FAO  et al.  2003). For China, Senegal and The Gambia, and Tunisia new 
+SOTER products were compiled in this project. 
+ 
+The SOTER map of Senegal and The Gambia was derived from the analogue “Carte 
+morpho-pédologique du Sénégal” at scale 1 : 500,000 (Stan cioff  et al.  1986) and 
+digitized by Centre de Suivi Ecologique, Senegal (CSE 1994). 
+For Tunisia, the SOTER map was derived from the analo gue “Carte Pédologique de 
+la Tunisie”, scale 1: 500,000 (Division des Sols 197 3), which was digitized and 
+updated in 2007. The topographic base maps have been made con gruous to the 
+DCW for use as SOTER maps; polygons smaller than 10 km 
+2 have been eliminated. 
+ 
+For China, only a soil map, rasterized to 30 arc sec ond (approximately 1 km) was 
+available as part of the Harmonized World Soil Database  
+(FAO/IIASA/ISRIC/ISSCAS/JRC 2008). It is based on the Soil Map of China, at scale 
+1:1 million, compiled by the Institute of Soil Scienc e Chinese Academy of Sciences 
+(Shi  et al.  2004). The raster map has been converted to a polygon map and 
+generalized by dissolving all polygons smaller than 10 km
+2. After overlay with the 
+DEM-derived combimap, a basis for the new SOTER map was generated. 
+ 
+ 
+ 
+2.3.2  Primary soil data  
+Primary soil and terrain data for Argentina and Cuba wer e also obtained from the 
+SOTERLAC database at scale 1:5 million (FAO  et al.  1998), with updates for a few 
+countries (e.g. Brazil, Peru, etc.), see (Dijkshoorn et al.  2005). During this exercise, 
+Soil and landform properties – LADA countries 5 
+ 
+ 
+ 
+no new attribute data for Argentina were added to SOTERLA C; data for Cuba were  
+partly updated based on the available data sources..  
+ 
+The primary soil data for South Africa were extracted from SOTERSAF, at scale 1:2 
+million (FAO  et al.  2003). 
+ 
+New SOTER databases were compiled for Senegal and The Gam bia, in cooperation 
+with the Institut National de Pédologie, Dakar, and for  Tunisia with the Bureau des 
+Resources en Sols, Tunis. The SOTER database for Tuni sia was compiled at ISRIC, 
+with most information coming from IRD (formerly ORST OM) documents, including 
+(Belkhodja  et al.  1973) and (Mtimet 1999). 
+ 
+The SOTER database for China was compiled by the Institu te of Soil Science, 
+Chinese Academy of Sciences (ISSCAS) Nanjing (Zhang and Zhao 2008). In the 
+database, map units are characterized by only one single  soil. Usually, however at 
+scale 1:1 million, soil map legends generally describe s oil associations, comprising 
+several soil units.  
+ 
+ 
+6 Soil and landforms properties – LADA 
+ 
+ 
+ 
+3 RESULTS AND DISCUSSION 
+3.1  General 
+The compilation of the SOTER databases depends on existin g geometric and 
+attributes data available for the countries. Usually, no new soil survey or soil data 
+collection is envisaged in the procedures.  As a result , large variations can occur in 
+resolutions and data densities within and between countries.  
+ 
+Table 1 one gives a summary of the composition and cont ents of SOTER polygons, 
+units and components of the database for the six LADA project countries. 
+ 
+ 
+Table 1: SOTER details per country and component  
+ 
+Country 
+Surface 
+area in 
+1000 km2 
+Number 
+of 
+polygons 
+SOTER 
+units 
+Terrain 
+compo-
+nents 
+Soil 
+compo-
+nents 
+Profiles a) 
+Argentina 2791 633 203 220 564 222 
+ 
+China 9474 66134 5033 0 5033 1430 
+ 
+Cuba 110 95 30 49 73 30 + 4(s) 
+ 
+South 
+Africa 1220 3349 3042 7009 11897 615 + 
+1938(s) 
+Senegal 
+and  
+Gambia 
+197 2242 149 155 274 
+ 
+57 + 33(s) 
+ 
+Tunisia 155 752 250 256 533 56 + 44(s) 
+ 
+ 
+a)  Synthetic profiles (s) are profiles without any measured soil parameters, of which only the 
+FAO classification is known from legacy soil maps. 
+ 
+ 
+ 
+3.2  Argentina 
+The SOTERLAC database of Argentina, scale 1:5 million  (FAO  et al.  1998); 
+(Dijkshoorn  et al.  2005; van Engelen  et al.  2005), was used to extract a 1:1 million 
+SOTER map for Argentina.   
+ 
+A digital elevation model (DEM) derived from SRTM data (C GIAR-CSI 2004) was 
+compiled and has been used for the analysis of the singl e parameters slope, relief 
+intensity and elevation. The results of the single parameters have been combined in 
+a combi-map. See Chapter 2.2. 
+ 
+The SOTER map at scale 1:1 M was used as overlay ov er the SRTM- DEM derived 
+combimap and single parameter maps. When comparing the bounda ry fit of these 
+Soil and landform properties – LADA countries 7 
+ 
+ 
+ 
+maps, it appeared that SOTER unit boundaries deviated considerably from landform 
+boundaries on the combimap. To correct for considerable s hifts and to display 
+terrain units more accurately, the map was redrawn and re-digitized.  
+ 
+Most corrections of the SOTER unit boundaries are base d on this combi-map and, 
+alternatively the single parameter maps, slope, relief intensity and elevation. With 
+the overlay of the drainage pattern (GIS Lab Penn Stat e University 1993) and the 
+digital soil map of Argentina (Instituto de Suelos-INTA  1995) other SOTER unit 
+boundaries have been corrected. The use of the digital s oil map of Argentina was 
+very useful, especially where the information of the  combimap was less 
+discriminative and soil boundaries appeared to be decisive for the delineation of the 
+SOTER units, e.g. in nearly all plain areas.   
+ 
+Redrawing and corrections of the SOTER map resulted in more polygons and SOTER 
+units. Because of the larger scale needed for LADA, so me polygons were split and 
+boundaries redrawn, while in other cases new SOTER uni ts have been created on 
+basis of the soil map and combi-map. The present 1:1 mil lion SOTER map has 203 
+mapping (SOTER) units, compared to 108 on the original SO TER map for Argentina 
+at scale 1:5 million. See Table 1. 
+ 
+For each SOTER unit the median values of slope, relie f intensity, and maximum, 
+minimum and median elevation were calculated, using the  Zonal Statistics  Module 
+(ZSM) of ArcGIS 
+© and SRTM-DEM derived data. The calculated results were 
+incorporated in the terrain table of the SOTER database.  Comparison with the 
+original data showed that large deviations occurred in pl ace for the actual values of 
+the parameters, but that most cases the given landform classification was similar.  
+ 
+The attribute data for the representative profiles of t he 1:1 million-scale SOTER 
+database were extracted from the SOTERLAC database. No n ew representative 
+profiles have been added. These attribute data are restri cted to those available in 
+the reduced SOTERLAC dataset (FAO  et al.  1997).  
+ 
+ 
+3.3  China 
+The digital Soil Map of China used here, has a raster f ormat of 30 arc seconds 
+(approximately 1 km) and forms a part of the Harmonize d World Soil Database 
+(FAO/IIASA/ISRIC/ISSCAS/JRC 2008). It was compiled in  1995 by the Institute of 
+Soil Science, Chinese Academy of Sciences (ISSCAS) from data of the Office for the 
+Second National Soil Survey of China (Shi  et al.  2004). The mapping units are 
+based on the genetic soil classification of China (GSCC) and con verted and correlated to 
+the FAO Revised Legend (FAO-Unesco 1988). 
+ 
+The raster map contains over 67,000 polygons (FAO/IIAS A/ISRIC/ISSCAS/JRC 
+2008). The ISSCAS team created links between the polygo ns and reference 
+profiles, representing the dominant soil of the mapping un it, respectively a 
+miscellaneous unit, such as lakes, glaciers, rock o utcrop (Zhang and Zhao 2008).  
+The parent material/lithology of the reference profile s were given in the original 
+profile table. This information has been used to list t he SOTER unit’s dominant 
+parent material, as this was not given; this appears n ot correct for all SOTER units. 
+8 Soil and landforms properties – LADA 
+ 
+ 
+ 
+The landform was determined using the SRTM  90m DEM in a GIS based procedure 
+(Huting  et al.  2008).  
+ 
+The database consisted of two attribute tables, profile and horizon table, with a key 
+to the geometric database. The original dataset was reo rganized. The data set is 
+composed of 5 tables, maintaining the SOTER structure.  Many attribute data are 
+lacking in the dataset, such as information on rock outcrop, stoniness, drainage 
+class. The one to one relation of the SOTER unit to  the soil component in this 
+database restricts storage of only one dominant profile. The database contains data 
+for 1430 representative profiles. 
+ 
+Initially, many polygons had identical landform, litholo gy and soil classification 
+(FAO-Unesco 1988). These polygons have been aggregated to  create the SOTER 
+units, taking into account the different profile-ID fo r similarly classified soils. In 
+total 5040 SOTER units have been created out of the initial 67,209 polygons.  
+ 
+The terrain information on median slope, relief inten sity and elevation for the 
+SOTER units was derived from the 90m DEM data using th e Zonal Statistics Module 
+(ZSM) of ArcGIS 
+©, following the SOTER criteria for landform, maintain ing the 
+SOTER landform as classified during the mapping of SOTER  landform according to 
+GIS procedures (Huting  et al.  2008). Comparing this landform and the relief index 
+and/or slope it appeared that in a few cases landform an d slope do not correspond, 
+e.g. too low slope for landform medium-gradient mountain,  or to high relief index 
+for plain. These discrepancies occurred for very small SOTER units, often composed 
+of one or two polygons, in contrasting landscapes on the  islands Taiwan and 
+Hainan. Probably this has to do with the different pixel  map of the islands as they 
+were processed separately.  
+ 
+ 
+3.4  Cuba 
+A similar procedure as for Argentina was followed for C uba. The SOTER database of 
+Cuba was extracted from the SOTERLAC (FAO  et al.  1998). The SOTER unit map of 
+Cuba was enlarged to scale 1:1 million and put as an ove rlay over the combi-map 
+and the derived single parameter maps of slope, relief int ensity and elevation. See 
+also Chapter 2.2. 
+ 
+The combimap showed many terrain units and more detail i n landform than 
+observed in the original SOTERLAC map at scale 1:5 mil lion. Similar shifts occurred 
+for Cuba as for Argentina. However, the deviations obse rved for Cuba were much 
+smaller, but still the SOTER unit boundaries were not sufficient precise for scale 1:1 
+million and differed in their location compared to the u nits of the combi-map. 
+Therefore, the SOTER unit boundaries were adjusted, us ing the combi- and the 
+single parameter maps, for those cases where landform c ontrasted too strongly on 
+both maps, e.g. hilly on the combi-map and flat on the original SOTER map.  
+This has resulted in a better fit of the present SOTER  unit boundaries with the 
+terrain units derived from the DEM analysis and has im proved the accuracy of the 
+geometric location of the units. The followed procedur e was based on SRTM-DEM 
+derived data. The procedure may be improved by the use of sa tellite imagery and 
+national atlases as suggested by Reyes (Ramiro Reyes 2004). 
+Soil and landform properties – LADA countries 9 
+ 
+ 
+ 
+ 
+No new SOTER units were delineated, because no new soi l information was 
+available. The main changes are thus a few new polygon s that were split from 
+larger SOTER units on basis of strong contrasting terra in features shown on the 
+combi-map. It formed part of the adjustments made to the  SOTER map. See Table 
+1. For a number of profiles supplementary attribute da ta have been added to 
+complete the attribute data conform the requirements of  a 1:1 million SOTER 
+database.   
+ 
+Median values for slope, relief intensity and elevatio n were calculated with ArcGIS 
+© 
+Zonal Statistics Module (see Argentina) and the res ults inserted into the terrain-
+table of the SOTER database for Cuba. 
+ 
+ 
+3.5  South Africa  
+The SOTER database for South Africa was extracted from  the SOTERSAF database, 
+which covers the region of Southern Africa (FAO  et al.  2003). The South African 
+part of this database has a resolution higher than 1:1 million, as the original SOTER 
+map for South Africa was derived from the Land Type database that was based on a 
+1:250,000 scale soil map, compiled by the Institute fo r Soil, Climate and Water of 
+the Agricultural Research Council (ARC-LNR 2004). Fo r more details on the 
+database see (Dijkshoorn 2003).  
+ 
+The SOTER map for South Africa is very detailed compar ed to the SOTER maps of 
+other countries in SOTERSAF. Especially for the slo ping and steep areas, the map 
+resembles strong similarity to the combimap (see Chapte r 2.2). In flat areas, more 
+differences are observed; here the SOTER map shows more  polygons and SOTER 
+units than indicated on the combimap, reflecting the dif ferent soil patterns and soil 
+composition of the flat areas. The map has about an equ al number of polygons and 
+SOTER units and sufficient resolution for a 1:1 million scale. See Table 1. No further 
+subdivision of SOTER units was made, except a few minor  corrections and 
+modifications most of them to harmonize units bordering Lesotho. 
+ 
+The original SOTERSAF database for South Africa contai ned more than 7200 
+entrees for representative profiles, of which only 61 5 profiles are actually described 
+and analyzed. The majority of profiles is thus synthet ic or virtual and have only a 
+profile ID-coding, referring to the terrain type, the so il type and a sequencial 
+number to keep a link to the South African Land Type dat abase. Leptosols, for 
+instance, with an identical position in the landscape, and on similar lithological 
+parent material but in different SOTER units were given  a different profile 
+identification number (ID) and appeared as different syn thetic soil profiles in the 
+database. This is not according to the SOTER procedures. In the present version of 
+the SOTER database for South Africa, the number of iden tical profiles has been 
+reduced in a systematic way following SOTER procedures ( van Engelen and Wen 
+1995). 
+ 
+Synthetic profiles in the original SOTERSAF database,  with a similar classification, 
+depth, parent material and position in the landscape are s elected and given an 
+equal soil profile ID number. This new synthetic profi le replaces all selected profiles 
+10 Soil and landforms properties – LADA 
+ 
+ 
+ 
+and has a direct reference to the soil classification  of the Revised Legend (FAO-
+Unesco 1988), and contains also a link to landform and  parent material/lithology of 
+the SOTER unit. However, it has lost now the direct link to the Land Type database. 
+This adaption of the database has reduced the number of s ynthetic profiles to less 
+than 2000; e.g. for the Leptosols from more than 1500  profiles to less than 250 
+entrees in the present database. 
+ 
+Median values for slope, relief intensity and elevati on for the South Africa database 
+were calculated with ArcGIS 
+© Zonal Statistics Module (see Argentina) and the 
+results inserted into the terrain-table of the SOTER database. 
+ 
+ 
+3.6  Senegal and The Gambia 
+The digital soil map of Senegal and The Gambia was obtained through FAO/AGLL. It 
+is based on the ‘ Carte morpho-pédologique de Sénegal ’ at scale 1:500,000, which 
+used earlier work of (Stancioff  et al.  1986). The map was digitized by the Eros Data 
+Centre in cooperation with the Centre de Suivi Ecologi que, Dakar, (CSE and 
+PNAT/USAID 1994), and slightly modified. The legend gives information on soils, on 
+landform (elements) and lithology. This information is very useful for discriminating 
+and delineating SOTER units, when combined with informat ion obtained from the 
+SRTM-DEM analysis. The morpho-pedologic soil map was u sed as a topographic 
+basis for the SOTER map. SOTER units were delineated f rom overlaying this soil 
+map with the combi-map and landform assigned to the units on basis of the combi-
+code (see chapter 2.2). About 150 different SOTER units  have been distinguished. 
+All SOTER units smaller than 10 km 2 have been dissolved. They were allotted to 
+neighboring polygons with which they had the longest common boundary. 
+ 
+The current SOTER landform criteria are too broad to di scriminate the small, but 
+agricultural important, landscape differences, e.g. in th e northern inland dune 
+landscape, small differences in elevation. Often only  a few meters, make already a 
+difference in its suitability for agriculture.  
+ 
+River and rivulet valley bottom areas are often small , but important landforms in 
+(semi) arid land areas. To discriminate these landform s the methodological 
+framework approach for rapid characterization of agricul tural land-use (George and 
+Petri 2006) has been used as overlay over the combined landform and soil map.  
+With this map the delimitation of the valley bottoms o n the SOTER map have been 
+adjusted.  
+ 
+The SOTER attribute data has been compiled by the ‘Institut National de Pedologie’ , 
+Dakar, Senegal. The database contains 149 SOTER units , subdivided into 274 soil 
+components represented by 57 reference profiles. A major  problem is to find 
+reference profiles well distributed over the territory of Senegal. This was not 
+possible; most of the eastern part of the country lack s representative profiles. The 
+missing cases are substituted by 33 different synthetic profiles based on the FAO’88 
+Revised Legend classification. A synthetic profile is u sed, only when the mapping 
+unit is known and no representative profile is found fo r that unit. They are coded 
+using the FAO’88 classification. See also Table 1. 
+ 
+Soil and landform properties – LADA countries 11  
+ 
+ 
+ 
+The soil legend, which describes the soils according to the French classification 
+system (CPCS 1967), had to be converted into the Revis ed Legend of the Soil Map 
+of the World (FAO-Unesco 1988). This posed problems, beca use of incomplete 
+profile information. Due to these incomplete descripti ons, the classification 
+according to the World Reference Base for Soil Resourc es (IUSS 2006) was not 
+feasible in many cases. A preliminary correlation was  made between the Revised 
+Legend of the Soil Map of the World and the French clas sification system; see 
+Appendix 3 and Appendix 4. 
+ 
+Median values for slope, relief intensity and elevatio n were calculated with ArcGIS 
+© 
+Zonal Statistics Module (see Argentina) and the res ults inserted into the terrain-
+table of the SOTER database for Senegal and The Gambia. 
+ 
+ 
+3.7  Tunisia 
+A SOTER attribute database for Tunisia was compiled, usi ng the standard SOTER 
+procedures. This was supplemented with SRTM-DEM analysis  and derived maps to 
+delineate and define landforms (Huting  et al.  2008). See also Chapter 2.2. 
+ 
+The geometric SOTER database of Tunisia, has been derive d from the ‘ Carte 
+Pédologique de la Tunisie ’ at scale 1:500,000. This map was digitized in 2007 
+(Division des Sols 1973) and obtained, through FAO/A GLS, from the ‘ Direction des 
+Sols ’
+2, Ministry of Agriculture, Tunis. The digital map showed several inconsistencies 
+compared to the analogue version. Differences have been observed in delineation of 
+the mapping units, even some units had disappeared, errors  were noted in 
+assigning attribute data to the mapping units, etc. Assum ing a higher reliability for 
+the analogue map, soil attribute data, in particular the  information from the legend 
+has been used to create the SOTER database.  
+ 
+A pragmatic approach has been followed to compile the data base and the SOTER 
+map. An overlay of the digital soil map with the SOTER  combimap was made, while 
+also the lithology map of Tunisia (‘ Carte des Roches-mères des Sols’ ) at scale 1:1 
+million was also imported as an overlay (Dimanche 197 1). The SOTER units were 
+indicated on basis of the combination of these three ma ps. The mapping units of 
+the digital soil map were kept as geometric basis and adapted when the combi-map 
+and/or lithology map showed sufficient evidence of diff erence in terrain 
+characteristics or in lithology. When necessary the delineation of the soil units to 
+create a SOTER unit has been adapted. 
+ 
+A primary SOTER attribute database for Tunisia was compi led. Information to 
+describe the terrain attributes of the SOTER unit was extracted from the above 
+mentioned maps. The legend of the soil map followed the F rench classification 
+system (CPCS 1967). This legend was interpreted and con verted into the Revised 
+Legend units of the Soil Map of the World (FAO-Unesco 1 988) creating  soil 
+mapping units. See Appendix 2 . The legend of the soil map served also to 
+determine the number of soil components of the SOTER u nit. Aided by profile 
+                                         
+ 
+2 Formerly Division des Sols  
+12 Soil and landforms properties – LADA 
+ 
+ 
+ 
+descriptions, often from various sources, representati ve profiles were assigned to 
+the soil components to characterize each soil of the SOTER unit.  
+ 
+The Direction de Sols, Tunis, aimed to improve the pres ent version of the soil map, 
+especially the subdivision in ‘ classe ’ (and sous-classe ) and ‘ groupe ’ (and sous-
+groupe ) of the legend, in order to improve the legend’s link t o the soil components. 
+However, this was unfortunately not feasible. As a r esult, not in all cases could the 
+database be verified with actual data and only tentative ly correlated with the FAO’s 
+Revised Legend (FAO-Unesco 1988).  This resulted in a d atabase in which units are 
+unequally subdivided in soil components and classificati on and correlation to the 
+Revised Legend still can be improved.  
+ 
+Errors may occur in the conversion of the original l egend into the Revised Legend 
+(FAO-Unesco 1988), but also in the proportional composi tion of soil components in 
+the SOTER units as extracted from the original legend.  Information on proportional 
+composition was not found in any document. The composition was estimated, based 
+on the unit description in the legend or on interpreted i nformation in reports, maps 
+and satellite images (ESRI 2006). 
+ 
+Geo-referenced, representative profiles are needed for c orrelation of the CPCS 
+system with the FAO’s Revised Legend. However, fully described and analyzed soil 
+profiles, were limited in number. Most profile descript ions and analyses were made 
+to support a soil-genetic interpretation of soil maps, rather than morphometric 
+approaches. There are only a few profiles descriptions t hat follow methods 
+complying with the data requirements for the SOTER database. 
+ 
+Not all profiles  were geo-referenced, e.g. - Atlas des Sols Tunisiens  - (Mtimet 
+1999). Soil horizons were generally well described, but  often class descriptions 
+deviate from present-day standards and soil analyses are limited to texture, pH and 
+electrical conductivity (EC), and organic carbon determi nations. An exception is a 
+group of 15 profiles, sampled and described by the National R esources 
+Conservation Service, USA (NRCS-SSL 1987), which giv e fully described and 
+analyzed soil profiles.  
+ 
+The database for Tunisia contains 56 reference profiles and 44 synthetic profiles. 
+Median values for slope, relief intensity and elevati on were calculated similarly as 
+for the other LADA partner countries (see Argentina). 
+ 
+ 
+ 
+ 
+Soil and landform properties – LADA countries 13  
+ 
+ 
+ 
+4 CONCLUSIONS 
+SOTER databases for the six GLADA partner countries (A rgentina, China, Cuba, 
+Senegal and The Gambia, South Africa and Tunisia) are pr esented at scale 
+1:1,000,000. Although having the same scale, the datab ases differ in resolution, in 
+terms of the number of SOTER units per defined unit are a, and differences in data 
+density.  
+ 
+The spatial and soil attribute information, as presente d here, should be improved 
+when new materials become available in particular for the SOTER for Tunisia and 
+Senegal and The Gambia. 
+ 
+Transformation of the French Classification System (CPCS 1967), as used in 
+Senegal and The Gambia and Tunisia, into the Revised Lege nd of FAO posed 
+difficulties. Additional, well described and analyzed soil  profiles would be of great 
+help for correlation and to fill gaps in the present databases. 
+ 
+SRTM-DEM data were useful to correct delineations of SOTER units for Argentina 
+and Cuba.  
+ 
+The number of SOTER units for China can probably be reduced by aggregating units 
+e.g. related soil components into one SOTER unit. How ever, such a comprehensive 
+update needs local expert knowledge to group SOTER units to gether and create a 
+new SOTER unit composed of the old ones.   
+ 
+ 
+ 
+ 
+ 
+14 Soil and landforms properties – LADA 
+ 
+ 
+ 
+ACKNOWLEDGEMENTS 
+This study has been prepared in the framework of the G lobal Assessment of Land 
+Degradation (GLADA), which is coordinated by the Food and Agricultural 
+Organisation of the United Nations (FAO) and part of t he FAO program Land 
+Degradation Assessment in Drylands (LADA). 
+ 
+We gratefully acknowledge RE Godagnone (INTA- Institute de Suelos, Argentina) 
+and R Villegas Delgado (INICA, Cuba) for their contribut ion to the initial SOTERLAC 
+database; M Samadi, (ARC-Institute for Soil Climate an d Water, South Africa) for 
+his contribution to the SOTERSAF database; G Zhang, YG Zhao and Y Wu (Institute 
+of Soil Science, Chinese Academy of Sciences, Nanjin g) for compilation of the 
+SOTER dataset of the Republic of China;  RD Fall, PN D iagne and I Boudeme  
+(Institut National de Pédologie, Dakar) for compilatio n of the SOTER database of 
+Senegal and The Gambia; H Hamrouni and MC Derouiche (Di rection de Sols, 
+Ministère de l’Agriculture, Tunis) for the geometric da tabase of Tunisia. Colleagues 
+NH Batjes for editing and Y Karpes-Liem for document lay-out. 
+ 
+ 
+ 
+REFERENCES 
+ARC-LNR 2004. Agricultural Geo-Referenced Information  System AGIS, ARC-LNR 
+(http://www.agis.agric.za/agisweb/agis.html  (accessed: September 2008)) 
+Bai ZG, Dent DL, Olssen L and Schaepman ME 2008. Global assessment of land 
+degradation and Improvement. 1. Identification by remot e sensing.  Report 
+2008/01, ISRIC- World Soil Information, Wageningen 
+Belkhodja K, Bortoli L, Cointepas J-P, Dimanche P, Fournet A, Jacquinet JC and Mori 
+A 1973. Les sols de la Tunisie septentrionale , Ministere de l'Agriculture, DRES 
+Division des Sols, Tunis 
+CGIAR-CSI 2004. SRTM 90 m Digital Elevation Data, Co nsortium for Spatial 
+Information. ( http://srtm.csi.cgiar.org/SELECTION/inputCoord.asp  (accessed: 
+July 2008)) 
+CPCS 1967. Classification des sols . Commission de Pédologie et de Cartographie 
+des Sols, INRA editions, Paris 
+CSE 1994. Carte Morpho-pédologique du  Sénégal. Centre de S uivi Ecologique, 
+Dakar Senegal, pp revised from EROS - PNAT/USAID version 1991 
+CSE and PNAT/USAID E- 1994. Carte Morphopédologique du S énégal, 1:500.000, 
+revised. Centre de Suivi Ecologique, Dakar, Sénégal 
+Dijkshoorn JA 2002. From soil map to digital land reso urces database; land 
+resources inventories, SOTER and its applications.  Revista de Ciências Agrárias  
+XXV, 30-41 
+Dijkshoorn JA 2003. SOTER database for Southern Africa (SOTERSAF) ISRIC - 
+World Soil Information, Wageningen 
+Dijkshoorn JA, Huting JRM and Tempel P 2005. Update of the 1:5 million Soil and 
+Terrain Database for Latin America and the Caribbean (S OTERLAC; ver. 2.0) 
+ISRIC - World Soil Information, Wageningen 
+Dimanche P 1971. Carte des Roches-Mères des Sols. Division des Sols, Tunis 
+Soil and landform properties – LADA countries 15  
+ 
+ 
+ 
+Division des Sols 1973. Carte Pédologique de la Tunisie,  scale 1:500,000. Direction 
+des Resources en Eau et en Sol, Ministère de l'Agriculture, Tunis, Tunisia 
+DMA 1993. Digital Chart of the World, Defence Mapping Age ncy 
+(http://www.maproom.psu.edu/dcw/  (accessed: December 2007)) 
+Dobos E, Daroussin J and Montanarella L 2005. An SRTM-based procedure to 
+delineate SOTER Terrain Units on 1:1 and 1:5 million scales.  EUR21571 EN, 
+Office for Official Publications of the European Communities, Luxembourg 
+ESRI 2006. ArcGIS v.9.2. ESRI, Redlands, CA 
+FAO-Unesco 1988. FAO/Unesco Soil Map of the World, Revised Legend . World 
+Resources Report 60. FAO, Rome (also published by ISRIC 1994, Wageningen) 
+FAO, ISRIC and UNEP 2003. Soil and Terrain Database fo r Southern Africa, 1:2 M. 
+scale. CD-ROM DMS 25, FAO, Rome ( 
+http://www.fao.org/ag/agl/lwdms.stm  ; 
+http://www.isric.org/isric/CheckRegistration.aspx?dataset=18 ) 
+FAO, ISRIC, UNEP and CIP 1997. Completion of a 1:5 million Soil and Terrain digital 
+Database (SOTER) for Latin America and the Caribbean Terminal Report , ISRIC -  
+World Soil Information, Wageningen 
+FAO, ISRIC, UNEP and CIP 1998. Soil and Terrain databa se for Latin America and 
+the Caribbean, 1:5M. scale. CD-ROM DMS 5, FAO 
+(
+http://www.isric.org/isric/CheckRegistration.aspx?dataset=27 ) 
+FAO/IIASA/ISRIC/ISSCAS/JRC 2008. Harmonized World Soi l  Database (version 
+1.0). FAO and IIASA, Rome, Italy and Laxenburg, Austria 
+George H and Petri M 2006. The rapid characterization a nd mapping of agricultural 
+land-use: A methodological framework approach for the L ADA project. FAO, 
+Rome, pp 25 
+GIS Lab Penn State University 1993. Digital Chart of the World, scale 1:1,000,000, 
+drainage network, The Pennsylvania State University L ibraries 
+(http://www.maproom.psu.edu/cgi-bin/dcw/dcwcountry.cgi  (accessed: April 
+2008)) 
+Huting JRM, Dijkshoorn JA and van Engelen VWP 2008. GIS-procedures for 
+mapping SOTER landform for the LADA partner countri es (Argentina, China, 
+Cuba, Senegal, South Africa and Tunisia) , GLADA Report 2, ISRIC - World Soil 
+Information and Food and Agricultural Organisation of th e United Nations, 
+Wageningen 
+Instituto de Suelos-INTA 1995. Atlas de Suelos de la R epublica Argentina, scale 
+1:1,000,000, CD rom, Aeroterra S.A.y Fundación ArgenINTA 
+ISRIC - World Soil Information 2006. Global Assessme nt of Land Degradation, 
+Workplan 2007-2008, Wageningen 
+ISSS, ISRIC and FAO 1998. World Reference Base for Soil Resources , Food and 
+Agriculture Organization of the United Nations, Rome 
+IUSS WG 2006. World reference base for soil resources 2006 . World Soil Resources 
+Reports 103, Food and Agriculture Organization of the United Nations, Rome 
+Mtimet A 1999. Atlas des sols Tunisiens . Ministère de l'Agriculture, Tunis 
+NRCS-SSL 1987. Soil characterization database for Tun isia, Pedon database 
+National Resource Conservation Service, USDA 
+  ( http://ssldata.nrcs.usda.gov/query.asp   (accessed: April 2008)) 
+Ramiro Reyes 2004. Characterization of Cuban relief using SRTM data, International 
+Institute for Geo-Information Science and Earth Obser vation, Enschede, The 
+Netherlands, 42 pp 
+Shi XZ, Yu DS, Warner ED, Pan XZ, Petersen GW, Gong ZG and Weindorf DC 2004. 
+Soil Database of 1:1,000,000 Digital Soil Survey and R eference System of the 
+Chinese Genetic Soil Classification System.  Soil Survey Horizons  45, 129-136 
+Stancioff A, Staljanssens M and Tappan G 1986. Mapping and Remote Sensing of 
+the Resources of the Republic of Senegal: A study of  the geology, hydrology, 
+soils, vegetation and land use potential . SDSU, Remote Sensing Institute, 
+Brookings, South Dakota, USA, 655 p 
+16 Soil and landforms properties – LADA 
+ 
+ 
+ 
+Tempel P 2002. SOTER Global and National Soils and Terrain Digital Da tabases, 
+Database Structure v3 . Working Paper 2002/01, ISRIC - World Soil Informatio n, 
+Wageningen 
+van Engelen VWP and Wen TT 1995. Global and National Soil and Terrain Digital 
+Database (SOTER). Procedures Manual . ISRIC - World Soil Information, 
+Wageningen 
+van Engelen VWP, Batjes NH, Dijkshoorn JA and Huting J RM 2005. Harmonized 
+Global Soil Resources database (Final Report) . 2005/06, ISRIC - World Soil 
+Information, Wageningen 
+Zhang G and Zhao YG 2008. SOTER database for China, sca le 1:1 million. Institute 
+of Soil Science, Chinese Institute of Soil Science, Nanjing 
+ 
+ 
+ 
+ 
+Soil and landform properties – LADA countries 17  
+ 
+ 
+ 
+APPENDICES 
+Appendix 1: Hierarchy of major landforms  
+1st level 2nd level gradient 
+(%) 
+relief 
+intensity 
+(m.km -2) 
+L level land LP  plain 
+LL  plateau 
+LD  depression 
+LF low gradient  footslope 
+LV  valley floor 
+<10 
+<10 
+<10 
+<10 
+<10 
+<50 
+<50 
+<50 
+<50 
+<50 
+S sloping land SE  medium-gradient 
+escarpment zone 
+SH  medium-gradient hill 
+SM  medium-gradient 
+mountain 
+SP dissected plain 
+SV  medium-gradient valley 
+10-30 
+ 
+10-30 
+15-30 
+ 
+10-30 
+10-30 
+100-150 
+ 
+100-250 
+150-300 
+ 
+50-100 
+100-150 
+T steep land TE  high-gradient 
+escarpment zone 
+TH  high-gradient hill 
+TM  high-gradient mountain 
+TV  high-gradient valley 
+>30 
+ 
+>30 
+>30 
+>30 
+150-300 
+ 
+150-300 
+>300 
+>150 
+ 
+Adapted from SOTER manual (van Engelen and Wen 1995); revised, not published 
+ 
+ 
+18 Soil and landforms properties – LADA 
+ 
+ 
+ 
+ 
+Appendix 2: Correlation of CPCS classification (CPC S 1967), 
+Revised Legend  (FAO-Unesco 1988), and a tentative 
+WRB Reference Soil Group (IUSS 2006) for Tunisia. 
+ 
+Soil profile classification  
+Carte Pédologique de la Tunisie  FAO’88 3 Phase  WRB (tentative)  
+Calcimorphe sur accumulation gypseuse GYh LI Hypergypsi-Leptic Gypsisols 
+Régosol RGc LI Calcari-Leptic Regosols 
+Rendzine CMc LI Calcari-Leptic Cambisols 
+Rendzine brune sur croute et encroutement 
+calcaire 
+CLp PC Hypercalci-Epipetric Calcisols 
+Rendzine brunifiée CMc LI Calcari-Leptic Cambisols 
+Rendzine sur croute CLp PC Hypercalci-Petric Calcisols 
+Sol à Mull - Sol brun forestier LXh  Haplic Lixisols 
+Sol à Mull - Sol brun lessivé LXh  Haplic Lixisols 
+Sol à mull, sol lessivé hydromorphe  PLd  Dystri-Albic Planosols 
+Sol à mull; sols bruns faiblement lessivés ALh  Profondic Alisols 
+Sol à mull; sols lessivés hydromorphes LVj  Endodystri-Stagnic Luvisols 
+Sol à mull; sols lessivés podzoliques PZh  Skeleti-Albic Podzols 
+Sol brun calcaire CMc  Calcaric Cambisols 
+Sol brun calcaire sur encroûtment calcaire, 
+humifié 
+CLp  Hypercalci-Epipetric Calcisols 
+Sol brun calcaire sur marne CLp  Hypercalci-Petric Calcisols 
+Sol brun humifère CMu  Haplic Umbrisols 
+Sol brun isohumique CLl  Chromi-Luvic Calcisols 
+Sol calcimorphe à encroûtement gypseux GYp  Petric Gypsisols 
+Sol calcomagnesimorphe rendzine LPk  Rendzic Leptosols 
+Sol calcomagnesimorphes rendzine CLp  Hypercalci-Epipetric Calcisols 
+Sol d'apport modal sur d'apport fluviatile FLc  Calcari-Gypsiric Fluvisol 
+Sol de croûte ou encroûtement gypseux CLp LI Lepti-Petric Calcisols 
+Sol fersialitique à réserve calcique CLl  Chromi-Luvic Calcisols 
+Sol isohumique subtropical brun modal CMc  Chromi-Calcaric Cambisols 
+Sol isohumique subtropical châtain modal LVk  Chromi-Calcaric Luvisols 
+Sol isohumique subtropical-châtain KSk  Luvi-Calcic Kastanozems (Sodic) 
+Sol iso-humique, sierozem modal  
+(subdesert soil) 
+CLl  Luvic Calcisols 
+Sol mineral brut d'érosion RGc  Calcaric Regosols 
+Sol mineral brut d'apport fluviatile FLe  Eutri-Skeletic Fluvisols 
+Sol mineral brut, erg, dunes ARc  Calcari-Gypsiric Arenosols 
+Sol peu évolué CMv  Calcari-Vertic Cambisols 
+Sol peu évolué FLc  Hyposodi-Calcaric Fluvisols 
+Sol peu évolué d'apport éolien RGe  Eutric Regosol 
+Sol peu évolué d’apport éolien ARh  Haplic Arenosols 
+Sol peu évolué, non-climatique, d'érosion RGc  Calcaric Regosols 
+Sol rouge méditeranée LVk  Sodi-Calcic Luvisols (Rhodic) 
+Sol rouge méditeranée dans karst calcaire PHl  Calcari-Luvic Phaeozems 
+                                          
+3 Classification of FAO’88 Revised Legend. 
+Soil and landform properties – LADA countries 19  
+ 
+ 
+ 
+Soil profile classification  
+Carte Pédologique de la Tunisie  FAO’88 3 Phase  WRB (tentative)  
+érodé 
+Sol rouge méditerranéen non lessivé modal CMx  Chromic Cambisols 
+Sol salé à alcalis sur alluvion fluviatile SCn PH Sodi-Gleyic Solonchaks (Calcaric)  
+Sol salé sur alluvion fluviatile SNk  Calci-Salic Solonetz 
+Sol vertique VRe  Sodi-Hyposalic Vertisols 
+ (Gypsiric) 
+Vertisol lithomorph  e modal á caractère 
+accentué 
+VRk  Hyposodi-Calcic Vertisols 
+ 
+ 
+ 
+20 Soil and landforms properties – LADA 
+ 
+ 
+ 
+Appendix 3: Correlation of  CPCS classification (CP CS 1967), 
+Revised Legend  (FAO-Unesco 1988), and a tentative 
+WRB Reference Soil Group (IUSS 2006) for Senegal 
+and The Gambia. 
+Soil profile classification  
+Carte Pédologique de Sénégal  FAO‘88  PHAS  WRB (tentative)  
+Sol brun subaride ARl  Bruni-Hypoluvic Arenosol (Eutric)  
+Sol brun subaride RGe  Haplic Regosol (Eutric) 
+Sol brun-rouge subaride ARb   
+Sol faiblement ferrallitique ACf   
+Sol ferralitique à réserve calcique, à 
+caractère hydromorphe 
+LXf   
+Sol ferrugineux tropical faiblement lessivé ARl  Hypoluvic Arenosol (Eutric) 
+Sol ferrugineux tropical faiblement lessivé 
+sur sable 
+ARa   
+Sol ferrugineux tropical lessivé ACh   
+Sol ferrugineux tropical lessivé ACf  Haplic Acrisol (Ferric, Epieutric, 
+Arenic) 
+Sol ferrugineux tropical lessivé ACf  Vetic Acrisol (Abruptic, 
+Hyperdystric) 
+Sol ferrugineux tropical lessivé ACh  Haplic Acrisol (Ferric, Abruptic, 
+Arenic) 
+Sol ferrugineux tropical lessivé ARh   
+Sol ferrugineux tropical lessivé ARl   
+Sol ferrugineux tropical lessivé ARl  Rubi-Hypoluvic Arenosol (Dystric)  
+Sol ferrugineux tropical lessivé LXh  Haplic Lixisol (Epiarenic, 
+Chromic) 
+Sol ferrugineux tropical lessivé LXg  Gleyic Lixisols (Ferric) 
+Sol ferrugineux tropical lessivé à taches 
+diffuses 
+ACf  Hapli-Ferric Acrisol (Abruptic, 
+Chromic) 
+Sol ferrugineux tropical lessivé sur grès 
+sablo-argileux 
+LXf   
+Sol ferrugineux tropical lessivé, induré ACp PF Pisoplinthic Acrisols (Chromic) 
+Sol ferrugineux tropical peu lessivé ARo   
+Sol ferrugineux tropical peu lessivé LXf   
+Sol gravillonnaire RGe   
+Sol halomorphe SCh   
+Sol hydromorphe GLd   
+Sol hydromorphe à pseudogley FLe  Gleyic Fluvisol (Eutric) 
+Sol hydromorphe à pseudogley de surface GLe   
+Sol hydromorphe minéraux argileux à 
+pseudogley 
+GLe   
+Sol hydromorphe peu humifère GLe   
+Sol hydromorphe sur argile de décantation GLe   
+Sol peu évolué d'apport alluvial FLe  Haplic Arenosols (Eutric, Arenic) 
+Sol peu évolué d'apport, hydromorphe RGd  Endogleyic Regosol (Dystric) 
+Sol peu évolué d'érosion RGe LI Hapli-Leptic Regosol (Eutric, 
+Skeletic) 
+Sol peu évolué humifère sur matériaux très 
+sableux de dunes aplanies 
+ARh   
+Sol peu évolué non climatique d'apport 
+hydromorphe sur alluvions lacustrines de 
+texture fine  
+FLe  Gleyic Fluvisol (Eutric,Clayic) 
+Sol peu évolué non climatique d'apport GLe   
+Soil and landform properties – LADA countries 21  
+ 
+ 
+ 
+Soil profile classification  
+Carte Pédologique de Sénégal  FAO‘88  PHAS  WRB (tentative)  
+alluvial, hydromorphe 
+Sol sulfaté acide FLt  Sali-Gleyic Fluvisol (Thionic, 
+Sodic) 
+Sol sulfaté acide maturé à jarosite à 
+moyenne profondeur 
+FLt   
+Sols gravillonnaire sur niveau d'alteration 
+argileuse de roche basique 
+RGe LI  
+Vertisol VRe   
+Vertisol lithomorphe à surface de structure 
+massive (sol modal sur marnes) 
+VRe   
+Vertisol lithomorphe à surface massive VRk TK Mazic Vertisol (Calcaric) 
+ 
+22 Soil and landforms properties – LADA 
+ 
+ 
+ 
+Appendix 4: Correlation of Senegal profiles, accord ing to the 
+national system, Revised Legend (FAO-Unesco 1988), 
+and  the French system (CPCS 1967)  
+National Classification of Senegal FAO’88  Classification  (CPCS) 
+Bane GLe  
+Deck Dior de dépression ACf  
+Deck Dior de plaine ACf  
+Deck Dior de plaine LXf  
+Deck Dior de plaine LXg  
+Dior LXf  
+Dior Deck de vallée sèche ARc  
+Dior de basse plaine FLe Sol peu évolué d'apport alluvial 
+Dior de glacis de raccordement LXf Sol ferrugineux tropical lessivé 
+Dior de plaine LXf  
+Dior de plaine dunaire ARh  
+Dior de plaine dunaire ARo  
+Dior de plaine résiduelle LXf  
+Dior de terrasse ARh  
+Dior Deck de glacis de raccordement ACf  
+Dior Deck de vallée ARl  
+Dior Deck de vallée secondaire CMd  
+Dior Deck sur de bas plateaux LXf  
+Dior des dunes aplanies ARo Sol ferrugineux tropical peu lessivé 
+Dior-deck de dépression ARh  
+Salisol sulfaté SCg  
+Sulfatosol à jarosite FLt  
+ 
+Soil and landform properties – LADA countries 23  
+ 
+ 
+ 
+Appendix 5: Technical information datasets  
+• Availability 
+The datasets of the 1:1M SOTER for the GLADA partner countries Argentina, China, 
+Cuba, South Africa, Senegal and The Gambia, and Tunisia  will be available (on 
+CD/DVD) through FAO, Rome, in the Land and Water Digita l media series 
+(http://www.fao.org/ag/agl/lwdms.stm ). 
+ 
+The SOTER datasets can also be downloaded from ISRIC – World Soil Information’s 
+website: 
+http://www.isric.org/  . 
+ 
+• Formats 
+The SOTER datasets have been compiled using MS Office-Access ®, version 2004.  
+The SOTER input software for the input of attribute dat a in the SOTER database is 
+version 3.40 (Tempel 2002). All older versions are compatible.  
+ 
+The GIS files are created using ArcGIS9/ArcMap9.2 
+®, the shape files may also be 
+imported/ viewed in ArcView3.3 ®. 
+ 
+• Projection 
+The ‘projection’ of all SOTER maps is geographic WGS 198 4 with coordinates given 
+in decimal degrees. 
+ 
+• Size of files 
+ 
+Dataset zipped  (Mb) unzipped (Mb) 
+Argentina 0.75 3.41 
+China 51.4 100.0 
+Cuba 1.02 5.23 
+Senegal and The Gambia 9.62 30.4 
+South Africa 17.2 58.0 
+Tunisia 0.86 4.25 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ISRIC - World Soil Information is an independent foundation with a global mandate, funded 
+by the Netherlands Government. We have a strategic association with Wageningen University 
+and Research Centre.  
+ 
+Our aims: 
+- To inform and educate - through the World Soil Museum, public information, discussion and 
+ publication  
+- As ICSU World Data Centre for Soils, to serve the scientific community as custodian 
+of global soil information  
+- To undertake applied research on land and water resources   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

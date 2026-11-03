@@ -1,0 +1,9 @@
+{
+  "purpose": "独立二级成本最优性复核",
+  "generation_logic": "NPZ矩阵加固定主目标容差cut，mip_rel_gap=0",
+  "status": 0,
+  "mip_gap": 0.0,
+  "objective": 8182.944037701617,
+  "reference_cost": 8182.94403770233,
+  "seconds": 0.22350519999599783
+}

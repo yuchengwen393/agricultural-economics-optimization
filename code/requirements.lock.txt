@@ -1,0 +1,12 @@
+# 用途：复现本次真实依赖版本。生成逻辑：已安装包元数据。Python 3.12；非自动安装脚本。
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+rasterio==1.5.2
+matplotlib==3.11.2
+pypdf==6.19.0
+xlrd==2.0.2
+requests==2.34.2
+Pillow==12.3.0
+shapely==2.1.2
+osmium==4.3.1

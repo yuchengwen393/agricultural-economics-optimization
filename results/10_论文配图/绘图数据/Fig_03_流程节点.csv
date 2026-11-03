@@ -1,0 +1,7 @@
+﻿order,stage,content,purpose,generation_logic
+1,数据与需求表示,50个支持单元；天气、道路、设备假设,新增Fig_03 流程节点绘图数据,依据现有optimization.py、supplementary.py及论文模型顺序；不增加未实施算法
+2,资源事件模拟,架次、电池、药液；逐事件检查可行性,新增Fig_03 流程节点绘图数据,依据现有optimization.py、supplementary.py及论文模型顺序；不增加未实施算法
+3,规则与ALNS探索,3种业务初解；3个种子各180轮,新增Fig_03 流程节点绘图数据,依据现有optimization.py、supplementary.py及论文模型顺序；不增加未实施算法
+4,受限MILP协调,1040候选包 + 50变量；风险主目标与费用次目标,新增Fig_03 流程节点绘图数据,依据现有optimization.py、supplementary.py及论文模型顺序；不增加未实施算法
+5,不确定性比较,转场保护 Γ；天气SAA–CVaR,新增Fig_03 流程节点绘图数据,依据现有optimization.py、supplementary.py及论文模型顺序；不增加未实施算法
+6,独立检验与评价,小实例穷举；61天气日、100组扰动,新增Fig_03 流程节点绘图数据,依据现有optimization.py、supplementary.py及论文模型顺序；不增加未实施算法

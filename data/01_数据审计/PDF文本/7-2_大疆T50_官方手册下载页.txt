@@ -1,0 +1,131 @@
+用途：原始PDF检索与参数证据提取。生成逻辑：pypdf逐页抽取，表格须回查原件。
+来源：D:\Desktop\jianmo\07_无人机与巡田补给系统\7-2_大疆T50_官方手册下载页.pdf
+下载中心
+DJI App
+按产品查找
+DJI Mavic 系列
+DJI Air 系列
+DJI Mini 系列
+DJI Lito 系列
+DJI Flip 系列
+DJI Neo 系列
+DJI Avata 系列
+DJI Inspire 系列
+DJI RC 系列
+Phantom 系列
+Osmo Action 系列
+Osmo 360 系列
+Osmo Nano 系列
+Osmo Pocket 系列
+Osmo Mobile 系列
+DJI Mic 系列
+Ronin 系列
+DJI Power 系列
+Matrice 系列
+“ 虚拟飞行 ” 现已上线，下载大疆商城  app ，在线体验  DJI 无人机。立即下载
+大疆  T50 农业无人飞机
+大疆农服
+商用产品及方案
+大疆农服为大疆农业无人机提供全流程服务支持，助您查看数据更清晰、操作设备更便捷、管理更高效。
+仅支持手机端下载。
+需要  iOS 13.0 或更高版本；建议使用 iPhone 11 及之后发布的iPhone 。
+下列机型已做过产品测试，推荐您使用。
+推荐机型
+兼容： iPhone 17 Pro Max, iPhone 17 Pro, iPhone 17, iPhone 16E, iPhone 16 Pro Max, iPhone 16 Pro, iPhone 16 Plus, iPhon16, iPhone 15 Pro Max, iPhone 15 Pro, iPhone 15 Plus, iPhone 15, iPhone 14 Pro Max, iPhone 14 Pro, iPhone 14 Plus, iPhon14, iPhone 13 Pro Max, iPhone 13 Pro, iPhone 13, iPhone 13 mini, iPhone 12 Pro Max, iPhone 12 Pro, iPhone 12, iPhone 12mini, iPhone 11 Pro Max, iPhone 11 Pro, iPhone 11, iPhone SE 3, iPhone SE 2
+App 调参软件 文档与手册
+iOS Android
+搜索
+航拍无人机 手持摄影设备 储能及家居科技 商用产品及方案 探索精彩 服务与支持 购买渠道
+ 中国大陆
+Zenmuse 系列
+大疆机场系列
+软件服务
+农业（ AGRAS ）
+大疆  T200 农业无人飞机
+大疆  T100S&T70S 农业无人飞机
+大疆  T55 农业无人飞机
+大疆  T100 农业无人飞机
+大疆  T25P 农业无人飞机
+大疆  T70 系列农业无人飞机
+大疆  T60 农业无人飞机
+大疆  T50 农业无人飞机
+大疆  T25 农业无人飞机
+大疆  T40 农业无人飞机
+农业植保机解决方案  2.0
+农业植保解决方案  1.0
+MG-1S Advanced 农业植保机
+MG-1S 系列农业植保机
+MG-1P 系列农业植保机
+MG-1
+大疆  T20 植保无人飞机
+大疆  T16 植保无人飞机
+精灵  4 多光谱版
+大疆  T10 植保无人飞机
+大疆  T30 植保无人飞机
+大疆  T20P 农业无人飞机
+大疆运载系列
+配件
+机甲大师  RoboMaster 系列
+飞行控制系统
+动力系统
+电子调速器
+传输系统
+其它
+软件工具
+仅在大疆商城  app
+在线试飞，体验飞行乐趣；官方社区，随时交流想法；设备绑定，享一站式官方服务。
+立即下载
+热门产品分类
+消费级
+专业级
+行业级
+系统模块
+增值服务
+DJI Care 随心换
+DJI Care Pro
+DJI Care 行业无忧
+行业无人机保养服务
+农机关怀计划
+线上商城
+官方商城
+平台官方渠道
+大疆商城  App
+线下门店
+线下零售店
+商用产品购买渠道
+行业应用
+农业植保机
+专业影像
+企业合作
+成为授权经销商
+安全飞行
+安全飞行指引
+大疆飞行指南
+帮助与支持
+产品支持
+服务申请与信息支持
+帮助中心
+售后服务政策
+下载中心
+安全与隐私
+探索精彩大疆
+媒体中心
+官方周边
+社区
+天空之城
+大疆社区
+开发者
+订阅我们
+第一时间获得大疆的最新动
+请输入您的邮箱地址
+关于我们联系我们招聘精英代理商门户供应商门户RoboMaster慧飞培训中心
+隐私权政策使用条款疆湖名录无障碍声明网站问题反馈
+
+Copyright © 2026 DJI 大疆创新  版权所有粤 ICP 备 2022092332 号 本网站直接或间接向消费者推销商品或者服务的商业宣传均属于 “ 广告 ” （包装及参数、售后保障等商品信息除外）
+联系我们
+在线客服
+周一至周日： 9:00-21:00 （北京时间）
+联系在线客服
+大疆商城  App
+在线试飞、官方教程、设备管理，一站式服务平台。
+了解更多

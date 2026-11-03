@@ -1,0 +1,533 @@
+{
+  "purpose": "标准论文图严格核对与样式验收",
+  "generation_logic": "绘图前后源文件哈希、独立汇总、字体及PDF/PNG检查",
+  "passed": true,
+  "checks_count": 77,
+  "figure_count": 10,
+  "text_checks": [
+    {
+      "figure": "Fig_01_研究区空间支持与任务排序",
+      "text_objects": 120,
+      "all_bold": true,
+      "families": [
+        "Arial",
+        "Microsoft YaHei"
+      ]
+    },
+    {
+      "figure": "Fig_02_区域与日内天气窗口",
+      "text_objects": 133,
+      "all_bold": true,
+      "families": [
+        "Arial",
+        "Microsoft YaHei"
+      ]
+    },
+    {
+      "figure": "Fig_03_算法绩效四指标对照",
+      "text_objects": 137,
+      "all_bold": true,
+      "families": [
+        "Arial",
+        "Microsoft YaHei"
+      ]
+    },
+    {
+      "figure": "Fig_04_预算公平与服务承诺",
+      "text_objects": 88,
+      "all_bold": true,
+      "families": [
+        "Arial",
+        "Microsoft YaHei"
+      ]
+    },
+    {
+      "figure": "Fig_05_电池充电药液与无人机瓶颈",
+      "text_objects": 103,
+      "all_bold": true,
+      "families": [
+        "Arial",
+        "Microsoft YaHei"
+      ]
+    },
+    {
+      "figure": "Fig_06_鲁棒保护兑现与天气尾部风险",
+      "text_objects": 101,
+      "all_bold": true,
+      "families": [
+        "Arial",
+        "Microsoft YaHei"
+      ]
+    },
+    {
+      "figure": "Fig_07_车机同步药液与电池周转",
+      "text_objects": 89,
+      "all_bold": true,
+      "families": [
+        "Arial",
+        "Microsoft YaHei"
+      ]
+    },
+    {
+      "figure": "Fig_08_外援参与制度与接入信息",
+      "text_objects": 94,
+      "all_bold": true,
+      "families": [
+        "Arial",
+        "Microsoft YaHei"
+      ]
+    },
+    {
+      "figure": "Fig_09_邻域搜索计算规模与动态规划核验",
+      "text_objects": 111,
+      "all_bold": true,
+      "families": [
+        "Arial",
+        "Microsoft YaHei"
+      ]
+    },
+    {
+      "figure": "Fig_10_气象一致性接入距离与道路证据缺口",
+      "text_objects": 103,
+      "all_bold": true,
+      "families": [
+        "Arial",
+        "Microsoft YaHei"
+      ]
+    }
+  ],
+  "font_paths": {
+    "Arial": "C:\\Windows\\Fonts\\arialbd.ttf",
+    "Microsoft YaHei": "C:\\Windows\\Fonts\\msyhbd.ttc"
+  },
+  "pdf_fonts": [
+    "/CFMEKM+MicrosoftYaHei-Bold",
+    "/DQUQTG+Arial-BoldMT"
+  ],
+  "checks": [
+    {
+      "check": "面积与JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "主方案唯一覆盖",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "及时面积独立重算",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "主方案整包支付只计一次",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "分组率_near_road",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "分组率_far_road",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "算法主行与JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "61日期_SAA_CVaR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "天气均值CVaR_SAA_CVaR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "61日期_nominal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "天气均值CVaR_nominal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "61日期_robust_gamma2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "天气均值CVaR_robust_gamma2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "天气日期完全配对",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "100次兑现汇总_nominal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "100次兑现汇总_robust_gamma2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "扰动种子配对",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "20县11年日年累计一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "建平八月日数",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "建平小时日窗口一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "最终资源表已增强",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "服务承诺成本上下界",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "规模为真实子实例",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "DP状态布尔",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fig_01_研究区空间支持与任务排序全部文字加粗",
+      "passed": true,
+      "detail": "120"
+    },
+    {
+      "check": "Fig_02_区域与日内天气窗口全部文字加粗",
+      "passed": true,
+      "detail": "133"
+    },
+    {
+      "check": "Fig_03_算法绩效四指标对照全部文字加粗",
+      "passed": true,
+      "detail": "137"
+    },
+    {
+      "check": "Fig_04_预算公平与服务承诺全部文字加粗",
+      "passed": true,
+      "detail": "88"
+    },
+    {
+      "check": "Fig_05_电池充电药液与无人机瓶颈全部文字加粗",
+      "passed": true,
+      "detail": "103"
+    },
+    {
+      "check": "Fig_06_鲁棒保护兑现与天气尾部风险全部文字加粗",
+      "passed": true,
+      "detail": "101"
+    },
+    {
+      "check": "Fig_07_车机同步药液与电池周转全部文字加粗",
+      "passed": true,
+      "detail": "89"
+    },
+    {
+      "check": "信息差值独立核对",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fig_08_外援参与制度与接入信息全部文字加粗",
+      "passed": true,
+      "detail": "94"
+    },
+    {
+      "check": "ALNS轨迹单调_20261002",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ALNS轨迹单调_20261003",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ALNS轨迹单调_20261004",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fig_09_邻域搜索计算规模与动态规划核验全部文字加粗",
+      "passed": true,
+      "detail": "111"
+    },
+    {
+      "check": "Fig_10_气象一致性接入距离与道路证据缺口全部文字加粗",
+      "passed": true,
+      "detail": "103"
+    },
+    {
+      "check": "来源未改写_研究服务单元.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_主方案.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_运行环境.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_config.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_研究区摘要.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_算法对照.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_留出年份天气压力测试.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_留出天气汇总.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_转场扰动配对压力测试.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_转场扰动压力汇总.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_预算与公平灵敏度.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_服务承诺最低预算.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_补给与无人机瓶颈灵敏度_增强列池.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_接入信息条件对照_增强列池.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_外援参与制度对照.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_ALNS收敛轨迹.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_真实子实例规模实验.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_动态规划子路线实验.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_县域天气窗口_年统计.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_县域天气窗口_日统计.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_建平_逐小时窗口.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_气象交叉产品核对.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_研究区OSM节点.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_研究区OSM路段.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_主方案任务完成表.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "来源未改写_建平_2020玉米裁剪.tif",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF页数",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF嵌入加粗字体",
+      "passed": true,
+      "detail": "['/CFMEKM+MicrosoftYaHei-Bold', '/DQUQTG+Arial-BoldMT']"
+    },
+    {
+      "check": "PNG/SVG各10图",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fig_01_研究区空间支持与任务排序600dpi元数据",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fig_02_区域与日内天气窗口600dpi元数据",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fig_03_算法绩效四指标对照600dpi元数据",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fig_04_预算公平与服务承诺600dpi元数据",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fig_05_电池充电药液与无人机瓶颈600dpi元数据",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fig_06_鲁棒保护兑现与天气尾部风险600dpi元数据",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fig_07_车机同步药液与电池周转600dpi元数据",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fig_08_外援参与制度与接入信息600dpi元数据",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fig_09_邻域搜索计算规模与动态规划核验600dpi元数据",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fig_10_气象一致性接入距离与道路证据缺口600dpi元数据",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "visual_qa": "主代理已逐图检查同源预览及当前最终PDF全部10页；已修正分类刻度省略和电池图图例遮挡，未发现缺字、裁切或影响判读的重叠。此为人工版式验收，不认证现场可执行性。",
+  "scope": "旧求解结果及旧图保留，新的绘图数据仅复制/透明聚合；未重求解或制造统计显著性",
+  "visual_qa_evidence": {
+    "pdf_sha256": "e02a9703a3a3ec2ab91f4ac49ce6ec27594f2c17bb0e2ce44985d1e2178b05a9",
+    "render_dpi": 120,
+    "render_pages": [
+      "PDF_render-01.png",
+      "PDF_render-02.png",
+      "PDF_render-03.png",
+      "PDF_render-04.png",
+      "PDF_render-05.png",
+      "PDF_render-06.png",
+      "PDF_render-07.png",
+      "PDF_render-08.png",
+      "PDF_render-09.png",
+      "PDF_render-10.png"
+    ],
+    "render_sha256": {
+      "PDF_render-01.png": "80d038cac28e3883d2c37647e354414ce84ac926e55111cc4e34f56c1b124645",
+      "PDF_render-02.png": "b8d1d61441748691630e3340af936244f9f495a0d47c192268cf98f6aec624c3",
+      "PDF_render-03.png": "8d48e5c25a32117af9c069271385390c49696eca2275c796a282d6e1b8fc31c1",
+      "PDF_render-04.png": "f68c18b21882837071d81d5e56936b248ab27a6f80461d40a5f32e131722a874",
+      "PDF_render-05.png": "5d8fb85611b9039ed293ecaca52b2d884d8104809a3f8d3193a927c3f6f04df5",
+      "PDF_render-06.png": "c6522ea855c060ff91389490ed2f13be9f3c08659cf3d9cc16df18d43438d760",
+      "PDF_render-07.png": "cba637da7a367f3f858263c06a5efba56cea1ce386036c4f5300a96e145b618a",
+      "PDF_render-08.png": "3f44a6eb4eabf938597249ffd87721c32f0c8c996e1f1dfe3a266dfec80d9373",
+      "PDF_render-09.png": "be346220ab74fbced0219c6226193671fc413f352d92617a58385e7b2e512628",
+      "PDF_render-10.png": "595e03c91108d1b92fcc30969fa95c2b4d8c0ad468e6b7ef6c53649a0b7b2730"
+    },
+    "figure_count": 10,
+    "panel_count_excluding_colorbar": 37,
+    "source_files_rechecked": 26,
+    "reviewed_category_counts": {
+      "county": 20,
+      "years": 11,
+      "teams": 5,
+      "OWN1_batteries": 3
+    }
+  }
+}

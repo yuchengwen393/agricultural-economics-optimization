@@ -1,0 +1,22 @@
+{
+  "purpose": "独立事件检查和资源可行重放",
+  "generation_logic": "检查天气、库存下界、能量、飞行/车动不重叠、充电并发、唯一覆盖、预算和合同参与",
+  "passed": true,
+  "issues": [],
+  "metrics": {
+    "cost": 8182.94403770233,
+    "risk_proxy_loss_mu": 540.6862502367721,
+    "served_area_mu": 1634.5999796884494,
+    "timely_area_mu": 1634.5999796884494,
+    "timely_rate": 0.7514413308931032,
+    "worst_group_rate": 0.7241425638151135,
+    "group_rates": {
+      "near_road": 0.7876704090967734,
+      "far_road": 0.7241425638151135
+    },
+    "travel_min": 634.7459389365351,
+    "energy_kwh": 59.87545713144501,
+    "refills": 3,
+    "flights": 98
+  }
+}

@@ -1,0 +1,618 @@
+{
+  "purpose": "确认列名、单位和注释格式",
+  "generation_logic": "每CSV前7行，只读",
+  "files": [
+    {
+      "file": "01_区域农业经济与机械化统计\\辽宁统计年鉴_2021-2025在线版\\2021年\\2021年辽宁统计年鉴_目录.csv",
+      "head": [
+        "表格编号,表格名称,图片文件",
+        "01-01,1-1 行政区划,01-01.jpg",
+        "01-02,1-2 县区一览表,01-02.jpg",
+        "01-03,1-3 自然状况及资源,01-03.jpg",
+        "01-04,1-4 主要城市平均气温,01-04.jpg",
+        "01-05,1-5 主要城市平均相对湿度,01-05.jpg",
+        "01-06,1-6 主要城市降水量,01-06.jpg"
+      ]
+    },
+    {
+      "file": "01_区域农业经济与机械化统计\\辽宁统计年鉴_2021-2025在线版\\2022年\\2022年辽宁统计年鉴_目录.csv",
+      "head": [
+        "表格编号,表格名称,图片文件",
+        "01-01,1-1 行政区划,01-01.jpg",
+        "01-02,1-2 县区一览表,01-02.jpg",
+        "01-03,1-3 自然状况及资源,01-03.jpg",
+        "02-01,2-1 平均每天主要社会经济活动,02-01.jpg",
+        "02-02,2-2 国民经济和社会发展总量与速度指标,02-02.jpg",
+        "02-03,2-3 国民经济主要比例关系,02-03.jpg"
+      ]
+    },
+    {
+      "file": "01_区域农业经济与机械化统计\\辽宁统计年鉴_2021-2025在线版\\2023年\\2023年辽宁统计年鉴_目录.csv",
+      "head": [
+        "表格编号,表格名称,图片文件",
+        "01-01,1-1 行政区划,01-01.jpg",
+        "01-02,1-2 县区一览表,01-02.jpg",
+        "01-03,1-3 自然状况及资源,01-03.jpg",
+        "02-01,2-1 平均每天主要社会经济活动,02-01.jpg",
+        "02-02,2-2 国民经济和社会发展主要指标,02-02.jpg",
+        "02-03,2-3 国民经济主要比例关系,02-03.jpg"
+      ]
+    },
+    {
+      "file": "01_区域农业经济与机械化统计\\辽宁统计年鉴_2021-2025在线版\\2024年\\2024年辽宁统计年鉴_目录.csv",
+      "head": [
+        "表格编号,表格名称,图片文件",
+        "01-01,1-1 行政区划,01-01.jpg",
+        "01-02,1-2 县区一览表,01-02.jpg",
+        "02-01,2-1 平均每天主要社会经济活动,02-01.jpg",
+        "02-02,2-2 国民经济和社会发展主要指标,02-02.jpg",
+        "02-03,2-3 国民经济主要比例关系,02-03.jpg",
+        "02-04,2-4 按总人口平均的国民经济主要指标,02-04.jpg"
+      ]
+    },
+    {
+      "file": "01_区域农业经济与机械化统计\\辽宁统计年鉴_2021-2025在线版\\2025年\\2025年辽宁统计年鉴_目录.csv",
+      "head": [
+        "表格编号,表格名称,图片文件",
+        "01-01,1-1 行政区划,01-01.jpg",
+        "01-02,1-2 县区一览表,01-02.jpg",
+        "01-03,1-3 自然状况及资源,01-03.jpg",
+        "02-01,2-1 平均每天主要社会经济活动,02-01.jpg",
+        "02-02,2-2 国民经济和社会发展主要指标,02-02.jpg",
+        "02-03,2-3 国民经济主要比例关系,02-03.jpg"
+      ]
+    },
+    {
+      "file": "02_玉米分布与耕地空间数据\\待放入_CCD-Maize玉米分布栅格\\_下载清单.csv",
+      "head": [
+        "年份,文件名,期望字节,状态",
+        "2001,classified-Liaoning-maize-2001-WGS84-v1.tif,11554271,skip-exists",
+        "2002,classified-Liaoning-maize-2002-WGS84-v1.tif,10702095,skip-exists",
+        "2003,classified-Liaoning-maize-2003-WGS84-v1.tif,11045214,skip-exists",
+        "2004,classified-Liaoning-maize-2004-WGS84-v1.tif,12332102,skip-exists",
+        "2005,classified-Liaoning-maize-2005-WGS84-v1.tif,12853036,skip-exists",
+        "2006,classified-Liaoning-maize-2006-WGS84-v1.tif,13129225,skip-exists"
+      ]
+    },
+    {
+      "file": "02_玉米分布与耕地空间数据\\待放入_CCD-Maize玉米分布栅格\\_辽宁CCD-Maize逐年玉米面积.csv",
+      "head": [
+        "年份,投影,文件,尺寸,玉米像元数,玉米面积_km2,玉米面积_万公顷,玉米面积_万亩,像元面积_m2",
+        "2001,WGS84地理,classified-Liaoning-maize-2001-WGS84-v1.tif,25770x17693,20294932,13671.1,136.71,2050.7,逐行计算",
+        "2002,WGS84地理,classified-Liaoning-maize-2002-WGS84-v1.tif,25770x17693,20731955,13957.6,139.58,2093.6,逐行计算",
+        "2003,WGS84地理,classified-Liaoning-maize-2003-WGS84-v1.tif,25770x17693,20827293,14023.3,140.23,2103.5,逐行计算",
+        "2004,WGS84地理,classified-Liaoning-maize-2004-WGS84-v1.tif,25770x17693,27312540,18366.6,183.67,2755.0,逐行计算",
+        "2005,WGS84地理,classified-Liaoning-maize-2005-WGS84-v1.tif,25770x17693,30892152,20777.7,207.78,3116.7,逐行计算",
+        "2006,WGS84地理,classified-Liaoning-maize-2006-WGS84-v1.tif,25770x17693,31681750,21315.5,213.15,3197.3,逐行计算"
+      ]
+    },
+    {
+      "file": "02_玉米分布与耕地空间数据\\待放入_CLCD年度土地覆盖\\_下载清单.csv",
+      "head": [
+        "文件名,期望字节,状态",
+        "CLCD_classificationsystem.xlsx,9440,done",
+        "CLCD.jpg,1031238,done",
+        "_ncdc_meta_.json,5486,done",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "file": "02_玉米分布与耕地空间数据\\待放入_CLCD年度土地覆盖\\_包内省名对照表.csv",
+      "head": [
+        "包内文件后缀,含义,是否错拼",
+        "anhui,,",
+        "beijing,,",
+        "chongqing,,",
+        "fujian,,",
+        "ganshu,甘肃 Gansu（包内错拼，非 gansu）,⚠ 是",
+        "guangxi,,"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_小时值_生长季_2015-2025\\凌源市_辽西丘陵_41.24N_119.4E_hourly_GS_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Hourly Data",
+        "Dates (month/day/year): 04/01/2015 through 10/31/2025 in LST",
+        "Location: Latitude  41.24   Longitude 119.4",
+        "Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 531.81 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "Parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_小时值_生长季_2015-2025\\宽甸满族自治县_辽东山区_40.73N_124.78E_hourly_GS_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Hourly Data",
+        "Dates (month/day/year): 04/01/2015 through 10/31/2025 in LST",
+        "Location: Latitude  40.73   Longitude 124.78",
+        "Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 302.12 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "Parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_小时值_生长季_2015-2025\\建平县_辽西丘陵_41.4N_119.64E_hourly_GS_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Hourly Data",
+        "Dates (month/day/year): 04/01/2015 through 10/31/2025 in LST",
+        "Location: Latitude  41.4   Longitude 119.64",
+        "Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 626.26 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "Parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_小时值_生长季_2015-2025\\开原市_平原对照_42.55N_124.03E_hourly_GS_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Hourly Data",
+        "Dates (month/day/year): 04/01/2015 through 10/31/2025 in LST",
+        "Location: Latitude  42.55   Longitude 124.03",
+        "Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 117.64 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "Parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_小时值_生长季_2015-2025\\新宾满族自治县_辽东山区_41.73N_125.03E_hourly_GS_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Hourly Data",
+        "Dates (month/day/year): 04/01/2015 through 10/31/2025 in LST",
+        "Location: Latitude  41.73   Longitude 125.03",
+        "Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 545.74 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "Parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_小时值_生长季_2015-2025\\昌图县_平原对照_42.78N_124.11E_hourly_GS_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Hourly Data",
+        "Dates (month/day/year): 04/01/2015 through 10/31/2025 in LST",
+        "Location: Latitude  42.78   Longitude 124.11",
+        "Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 227.19 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "Parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_小时值_生长季_2015-2025\\朝阳市_辽西丘陵_41.58N_120.45E_hourly_GS_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Hourly Data",
+        "Dates (month/day/year): 04/01/2015 through 10/31/2025 in LST",
+        "Location: Latitude  41.58   Longitude 120.45",
+        "Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 282.51 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "Parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_小时值_生长季_2015-2025\\桓仁满族自治县_辽东山区_41.27N_125.36E_hourly_GS_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Hourly Data",
+        "Dates (month/day/year): 04/01/2015 through 10/31/2025 in LST",
+        "Location: Latitude  41.27   Longitude 125.36",
+        "Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 575.16 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "Parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_小时值_生长季_2015-2025\\沈阳市_省会参照_41.8N_123.43E_hourly_GS_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Hourly Data",
+        "Dates (month/day/year): 04/01/2015 through 10/31/2025 in LST",
+        "Location: Latitude  41.8   Longitude 123.43",
+        "Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 55.12 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "Parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_小时值_生长季_2015-2025\\清原满族自治县_辽东山区_42.1N_124.93E_hourly_GS_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Hourly Data",
+        "Dates (month/day/year): 04/01/2015 through 10/31/2025 in LST",
+        "Location: Latitude  42.1   Longitude 124.93",
+        "Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 472.31 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "Parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_日值_2015-2025\\凌源市_辽西丘陵_41.24N_119.4E_daily_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Daily Data",
+        "Dates (month/day/year): 01/01/2015 through 12/31/2025 in LST",
+        "Location: latitude  41.24   longitude 119.4",
+        "elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 531.81 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_日值_2015-2025\\宽甸满族自治县_辽东山区_40.73N_124.78E_daily_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Daily Data",
+        "Dates (month/day/year): 01/01/2015 through 12/31/2025 in LST",
+        "Location: latitude  40.73   longitude 124.78",
+        "elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 302.12 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_日值_2015-2025\\建平县_辽西丘陵_41.4N_119.64E_daily_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Daily Data",
+        "Dates (month/day/year): 01/01/2015 through 12/31/2025 in LST",
+        "Location: latitude  41.4   longitude 119.64",
+        "elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 626.26 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_日值_2015-2025\\开原市_平原对照_42.55N_124.03E_daily_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Daily Data",
+        "Dates (month/day/year): 01/01/2015 through 12/31/2025 in LST",
+        "Location: latitude  42.55   longitude 124.03",
+        "elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 117.64 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_日值_2015-2025\\新宾满族自治县_辽东山区_41.73N_125.03E_daily_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Daily Data",
+        "Dates (month/day/year): 01/01/2015 through 12/31/2025 in LST",
+        "Location: latitude  41.73   longitude 125.03",
+        "elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 545.74 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_日值_2015-2025\\昌图县_平原对照_42.78N_124.11E_daily_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Daily Data",
+        "Dates (month/day/year): 01/01/2015 through 12/31/2025 in LST",
+        "Location: latitude  42.78   longitude 124.11",
+        "elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 227.19 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_日值_2015-2025\\朝阳市_辽西丘陵_41.58N_120.45E_daily_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Daily Data",
+        "Dates (month/day/year): 01/01/2015 through 12/31/2025 in LST",
+        "Location: latitude  41.58   longitude 120.45",
+        "elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 282.51 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_日值_2015-2025\\桓仁满族自治县_辽东山区_41.27N_125.36E_daily_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Daily Data",
+        "Dates (month/day/year): 01/01/2015 through 12/31/2025 in LST",
+        "Location: latitude  41.27   longitude 125.36",
+        "elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 575.16 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_日值_2015-2025\\沈阳市_省会参照_41.8N_123.43E_daily_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Daily Data",
+        "Dates (month/day/year): 01/01/2015 through 12/31/2025 in LST",
+        "Location: latitude  41.8   longitude 123.43",
+        "elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 55.12 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\NASA_POWER_日值_2015-2025\\清原满族自治县_辽东山区_42.1N_124.93E_daily_2015-2025.csv",
+      "head": [
+        "-BEGIN HEADER-",
+        "NASA/POWER Source Native Resolution Daily Data",
+        "Dates (month/day/year): 01/01/2015 through 12/31/2025 in LST",
+        "Location: latitude  42.1   longitude 124.93",
+        "elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 472.31 meters",
+        "The value for missing source data that cannot be computed or is outside of the sources availability range: -999",
+        "parameter(s):"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\_补点依据_县级玉米面积排名.csv",
+      "head": [
+        "排名,县区,所属地级市,玉米播种面积均值(公顷),数据年数,点位状态,备注",
+        "1,昌图县,铁岭市,231729.5,4,已有点位,（原有）",
+        "2,阜新蒙古族自治县,阜新市,194130.5,4,第一批新增,已完成",
+        "3,黑山县,锦州市,119868.25,4,第一批新增,已完成",
+        "4,新民市,沈阳市,105704.0,4,第一批新增,已完成",
+        "5,彰武县,阜新市,105547.5,4,第二批新增,下载中（提升覆盖率至70%）",
+        "6,建平县,朝阳市,91988.5,4,已有点位,（原有）"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\CDS原始NetCDF\\_下载清单.csv",
+      "head": [
+        "分块文件,状态",
+        "ERA5Land_Liaoning_202604_01-20.nc,skip",
+        "ERA5Land_Liaoning_202604_21-30.nc,skip",
+        "ERA5Land_Liaoning_202605_01-20.nc,skip",
+        "ERA5Land_Liaoning_202605_21-31.nc,skip",
+        "ERA5Land_Liaoning_202606_01-20.nc,skip",
+        "ERA5Land_Liaoning_202606_21-30.nc,skip"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\凌源市_辽西丘陵_41.24N_119.4E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 凌源市(辽西丘陵) 纬度41.24 经度119.4；海拔 400.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-10.2,27,-25.9,,,,,-5.6,0.181,-11.1,27,-26.6,0.0,14.3,321,0.0,-8.0,0.201",
+        "2015-01-01T01:00,-10.4,27,-25.8,,,,,-5.8,0.181,-11.3,28,-26.3,0.0,13.9,323,0.0,-8.2,0.201"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\凤城市_辽东山区_40.45N_124.07E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 凤城市(辽东山区) 纬度40.45 经度124.07；海拔 69.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "# 补点依据: 年鉴附录7「各市农业县区基本情况」县级玉米播种面积（2013-2016 年均值），每市取该市玉米面积最大且原有点位未覆盖的县",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-10.6,37,-22.5,,,,,-4.7,0.292,-9.4,39,-20.8,0.0,15.2,324,0.0,-7.4,0.319"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\宽甸满族自治县_辽东山区_40.73N_124.78E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 宽甸满族自治县(辽东山区) 纬度40.73 经度124.78；海拔 283.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-17.7,57,-24.2,,,,,-8.8,0.327,-11.2,48,-20.0,0.0,12.8,322,0.0,-5.9,0.293",
+        "2015-01-01T01:00,-18.3,57,-24.7,,,,,-9.1,0.327,-12.0,49,-20.4,0.0,13.2,325,0.0,-6.6,0.293"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\庄河市_辽东半岛_39.7N_122.99E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 庄河市(辽东半岛) 纬度39.7 经度122.99；海拔 5.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "# 补点依据: 年鉴附录7「各市农业县区基本情况」县级玉米播种面积（2013-2016 年均值），每市取该市玉米面积最大且原有点位未覆盖的县",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-7.4,29,-22.4,,,,,-1.5,0.255,-7.1,30,-21.7,0.0,21.9,330,0.0,-2.0,0.244"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\建平县_辽西丘陵_41.4N_119.64E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 建平县(辽西丘陵) 纬度41.4 经度119.64；海拔 417.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-10.8,27,-26.0,,,,,-5.7,0.18,-11.5,28,-26.5,0.0,19.0,327,0.0,-7.4,0.192",
+        "2015-01-01T01:00,-11.0,28,-25.8,,,,,-5.8,0.18,-11.9,29,-26.2,0.0,18.6,328,0.0,-7.8,0.192"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\开原市_平原对照_42.55N_124.03E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 开原市(平原对照) 纬度42.55 经度124.03；海拔 86.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-18.5,64,-23.5,,,,,-8.5,0.277,-13.7,55,-20.9,0.0,9.8,298,0.0,-10.3,0.206",
+        "2015-01-01T01:00,-18.5,65,-23.4,,,,,-8.6,0.277,-13.9,56,-20.7,0.0,9.2,301,0.0,-10.5,0.206"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\新宾满族自治县_辽东山区_41.73N_125.03E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 新宾满族自治县(辽东山区) 纬度41.73 经度125.03；海拔 316.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-20.6,71,-24.6,,,,,-4.2,0.266,-19.0,70,-23.1,0.0,12.9,288,0.0,-13.1,0.24",
+        "2015-01-01T01:00,-21.0,71,-24.8,,,,,-4.3,0.266,-19.5,71,-23.5,0.0,13.0,289,0.0,-13.5,0.24"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\新民市_中部平原_41.99N_122.83E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 新民市(中部平原) 纬度41.99 经度122.83；海拔 35.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "# 补点依据: 年鉴附录7「各市农业县区基本情况」县级玉米播种面积（2013-2016 年均值），每市取该市玉米面积最大且原有点位未覆盖的县",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-11.5,42,-22.0,,,,,-6.0,0.225,-11.2,41,-21.8,0.0,17.6,319,0.0,-6.7,0.199"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\昌图县_平原对照_42.78N_124.11E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 昌图县(平原对照) 纬度42.78 经度124.11；海拔 139.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-20.5,69,-24.7,,,,,-10.8,0.276,-14.7,58,-21.2,0.0,10.5,301,0.0,-10.7,0.214",
+        "2015-01-01T01:00,-20.6,71,-24.6,,,,,-11.0,0.276,-14.8,59,-21.0,0.0,10.4,304,0.0,-10.9,0.214"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\朝阳市_辽西丘陵_41.58N_120.45E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 朝阳市(辽西丘陵) 纬度41.58 经度120.45；海拔 168.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-9.7,30,-24.2,,,,,-5.2,0.163,-9.9,29,-24.8,0.0,17.9,330,0.0,-5.7,0.202",
+        "2015-01-01T01:00,-10.0,31,-23.9,,,,,-5.4,0.163,-10.4,31,-24.4,0.0,18.2,330,0.0,-6.2,0.202"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\本溪满族自治县_辽东山区_41.3N_124.12E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 本溪满族自治县(辽东山区) 纬度41.3 经度124.12；海拔 206.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "# 补点依据: 年鉴附录7「各市农业县区基本情况」县级玉米播种面积（2013-2016 年均值），每市取该市玉米面积最大且原有点位未覆盖的县",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-19.2,68,-23.5,,,,,-10.6,0.28,-14.7,63,-20.2,0.0,12.5,309,0.0,-11.5,0.25"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\桓仁满族自治县_辽东山区_41.27N_125.36E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 桓仁满族自治县(辽东山区) 纬度41.27 经度125.36；海拔 273.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-16.3,65,-21.3,,,,,-2.5,0.324,-18.2,73,-21.9,0.0,10.2,309,0.0,-12.3,0.276",
+        "2015-01-01T01:00,-16.9,65,-21.8,,,,,-2.6,0.324,-19.2,73,-22.8,0.0,10.2,312,0.0,-13.0,0.276"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\沈阳市_省会参照_41.8N_123.43E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 沈阳市(省会参照) 纬度41.8 经度123.43；海拔 60.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-12.6,47,-21.6,,,,,-9.5,0.187,-12.0,48,-20.9,0.0,13.6,310,0.0,-7.1,0.239",
+        "2015-01-01T01:00,-12.9,48,-21.5,,,,,-9.7,0.187,-12.5,50,-20.8,0.0,12.5,311,0.0,-7.5,0.24"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\海城市_中部平原_40.85N_122.75E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 海城市(中部平原) 纬度40.85 经度122.75；海拔 34.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "# 补点依据: 年鉴附录7「各市农业县区基本情况」县级玉米播种面积（2013-2016 年均值），每市取该市玉米面积最大且原有点位未覆盖的县",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-10.0,33,-23.2,,,,,-3.8,0.253,-9.6,35,-22.3,0.0,16.6,326,0.0,-5.9,0.241"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\清原满族自治县_辽东山区_42.1N_124.93E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 清原满族自治县(辽东山区) 纬度42.1 经度124.93；海拔 243.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-20.0,69,-24.2,,,,,-7.1,0.274,-19.7,71,-23.7,0.0,13.0,284,0.0,-12.9,0.24",
+        "2015-01-01T01:00,-20.6,70,-24.6,,,,,-7.2,0.274,-19.8,71,-23.7,0.0,12.7,285,0.0,-13.2,0.24"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\盖州市_辽东半岛_40.39N_122.37E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 盖州市(辽东半岛) 纬度40.39 经度122.37；海拔 10.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "# 补点依据: 年鉴附录7「各市农业县区基本情况」县级玉米播种面积（2013-2016 年均值），每市取该市玉米面积最大且原有点位未覆盖的县",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-8.5,35,-21.3,,,,,-3.5,0.248,-7.4,40,-18.6,0.0,26.7,339,0.0,-1.7,0.153"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\绥中县_辽西丘陵_40.33N_120.34E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 绥中县(辽西丘陵) 纬度40.33 经度120.34；海拔 18.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "# 补点依据: 年鉴附录7「各市农业县区基本情况」县级玉米播种面积（2013-2016 年均值），每市取该市玉米面积最大且原有点位未覆盖的县",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-5.2,18,-25.7,,,,,-0.8,0.141,-5.2,21,-24.2,0.0,18.8,324,0.0,-0.4,0.134"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\辽阳县_中部平原_41.23N_123.06E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 辽阳县(中部平原) 纬度41.23 经度123.06；海拔 21.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "# 补点依据: 年鉴附录7「各市农业县区基本情况」县级玉米播种面积（2013-2016 年均值），每市取该市玉米面积最大且原有点位未覆盖的县",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-11.0,39,-22.4,,,,,-5.7,0.264,-10.3,39,-21.7,0.0,15.1,320,0.0,-5.9,0.239"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\阜新蒙古族自治县_辽西丘陵_42.02N_121.66E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 阜新蒙古族自治县(辽西丘陵) 纬度42.02 经度121.66；海拔 147.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "# 补点依据: 年鉴附录7「各市农业县区基本情况」县级玉米播种面积（2013-2016 年均值），每市取该市玉米面积最大且原有点位未覆盖的县",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-11.3,39,-22.5,,,,,-6.4,0.166,-11.5,39,-22.8,0.0,19.2,326,0.0,-8.7,0.148"
+      ]
+    },
+    {
+      "file": "04_气象实况与作业窗口\\待放入_ERA5-Land逐小时\\黑山县_辽西平原_41.69N_122.11E_hourly_2015-2025_ERA5Land+ERA5.csv",
+      "head": [
+        "# 来源: Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+        "# 模型: era5_land + era5；站点 黑山县(辽西平原) 纬度41.69 经度122.11；海拔 28.0 m",
+        "# 时段: 2015-01-01 ~ 2025-12-31，逐小时，时区 Asia/Shanghai",
+        "# 原始数据: ECMWF ERA5-Land / ERA5（经 Copernicus Climate Change Service 提供）；获取日期 2026-10-01",
+        "# 补点依据: 年鉴附录7「各市农业县区基本情况」县级玉米播种面积（2013-2016 年均值），每市取该市玉米面积最大且原有点位未覆盖的县",
+        "time,temperature_2m_era5_land,relative_humidity_2m_era5_land,dew_point_2m_era5_land,precipitation_era5_land,wind_speed_10m_era5_land,wind_direction_10m_era5_land,shortwave_radiation_era5_land,soil_temperature_0_to_7cm_era5_land,soil_moisture_0_to_7cm_era5_land,temperature_2m_era5,relative_humidity_2m_era5,dew_point_2m_era5,precipitation_era5,wind_speed_10m_era5,wind_direction_10m_era5,shortwave_radiation_era5,soil_temperature_0_to_7cm_era5,soil_moisture_0_to_7cm_era5",
+        "2015-01-01T00:00,-10.3,35,-22.7,,,,,-5.4,0.217,-10.4,36,-22.7,0.0,17.0,328,0.0,-6.9,0.162"
+      ]
+    }
+  ]
+}

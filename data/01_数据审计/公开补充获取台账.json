@@ -1,0 +1,190 @@
+{
+  "purpose": "补充数据及参考资料的成功与失败可追溯记录",
+  "generation_logic": "逐URL下载",
+  "records": [
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\DEM_N41E119.tif",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N41_00_E119_00_DEM/Copernicus_DSM_COG_10_N41_00_E119_00_DEM.tif",
+      "purpose": "区域起伏筛查；不用于农机入口判定",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "status": "cached",
+      "bytes": 42551116,
+      "sha256": "9ab2aa2b6497c8495fe5116ee8dafdb945ccd0ff0df315d64a785f7bae203169"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\Bertsimas_Sim_2004.pdf",
+      "url": "https://www.mit.edu/~dbertsim/papers/melvyn/The-Price-Of-Robustness-OR52.pdf",
+      "purpose": "预算不确定集合方法",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "status": "cached",
+      "bytes": 219793,
+      "sha256": "23cf2c77e7cfb899151cdde0e0adbfa79db72e5f50b8989088b75ad5821a3ecc"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\Ropke_Pisinger_2006.html",
+      "url": "https://pubsonline.informs.org/doi/10.1287/trsc.1050.0135",
+      "purpose": "ALNS原始论文元数据与摘要",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "http_status": 403,
+      "status": "failed",
+      "error": "403 Client Error: Forbidden for url: https://pubsonline.informs.org/doi/10.1287/trsc.1050.0135"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\Mavrotas_2009.html",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0096300309002574",
+      "purpose": "epsilon约束原始论文；失败保留记录",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "http_status": 403,
+      "status": "failed",
+      "error": "403 Client Error: Forbidden for url: https://www.sciencedirect.com/science/article/pii/S0096300309002574"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\SciPy_milp.html",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.milp.html",
+      "purpose": "开源MILP求解器接口",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "status": "cached",
+      "bytes": 45531,
+      "sha256": "44ab944584c92f140c07ec7fe4470d0562bb597dc3322f20a2b612428e613fd2"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\Copernicus_DEM_AWS.html",
+      "url": "https://registry.opendata.aws/copernicus-dem/",
+      "purpose": "补充DEM分发及使用条件",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "status": "cached",
+      "bytes": 9202,
+      "sha256": "c9215f2e18745ffcb33a2ed16c3f2ef5fab4dce70babace9132afe402c149320"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\Copernicus_DEM_product.html",
+      "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+      "purpose": "DSM空间尺度和适用性",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "status": "cached",
+      "bytes": 110477,
+      "sha256": "c29281d533fb7558c60b6d528d9bd1eec05c5df8d833565d9a9a2e1fcff4f6ab"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\OpenMeteo_archive.html",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "purpose": "确认风速默认km/h和再分析属性",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "status": "cached",
+      "bytes": 357181,
+      "sha256": "2f513748b224fd6f9de2474164a27c62adabd32c39d52e83afe87362702e73e0"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\DJI_T50_specs.html",
+      "url": "https://ag.dji.com/t50/specs",
+      "purpose": "无人机载荷、满电能量、充电约束",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "status": "cached",
+      "bytes": 481690,
+      "sha256": "be8e882c1ef15b9cee119a5fdaa579b5f9850abde6ad30c5f3c82e877552631c"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\CCD_Maize_2023.html",
+      "url": "https://www.nature.com/articles/s41597-023-02573-6",
+      "purpose": "玉米遥感产品论文",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "status": "cached",
+      "bytes": 447621,
+      "sha256": "eca9306439ae57b69b3f056ea15edb6a17c46a859b4579be0895109c25228eda"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\ERA5Land_2021.html",
+      "url": "https://essd.copernicus.org/articles/13/4349/2021/",
+      "purpose": "ERA5-Land原始论文",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "status": "cached",
+      "bytes": 556478,
+      "sha256": "89b02042e34e0980e558f1dba24f4366d3172fba2019ffe04613ac8833892e10"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\CLCD_2021.html",
+      "url": "https://essd.copernicus.org/articles/13/3907/2021/",
+      "purpose": "CLCD原始论文",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "status": "cached",
+      "bytes": 290307,
+      "sha256": "90109401ab353458f29c4c87e6dcda19a75e5be0511cc248c729cb7dec7e68f8"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\Dantzig_Wolfe_1960.html",
+      "url": "https://pubsonline.informs.org/doi/10.1287/opre.8.1.101",
+      "purpose": "集合划分分解思想",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "http_status": 403,
+      "status": "failed",
+      "error": "403 Client Error: Forbidden for url: https://pubsonline.informs.org/doi/10.1287/opre.8.1.101"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\Held_Karp_1962.html",
+      "url": "https://epubs.siam.org/doi/10.1137/0110015",
+      "purpose": "路线动态规划原始论文",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "http_status": 403,
+      "status": "failed",
+      "error": "403 Client Error: Forbidden for url: https://epubs.siam.org/doi/10.1137/0110015"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\CVaR_2000.pdf",
+      "url": "https://www.dropbox.com/scl/fi/djjdb9nqrw5iuk3dvo57a/CVaR1_JOR.pdf?raw=1&rlkey=tlzsycbj7p7hilpps72xzhxk4",
+      "purpose": "情景尾部损失分析依据",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "http_status": 200,
+      "status": "downloaded",
+      "bytes": 290104,
+      "sha256": "be8b1800419d635d5d5b527c254415dd98a24f09c1782808fa29aa70fc51ed6f"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\NASA_POWER_hourly.html",
+      "url": "https://power.larc.nasa.gov/docs/services/api/temporal/hourly/",
+      "purpose": "确认2m风和LST经度带",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "http_status": 200,
+      "status": "downloaded",
+      "bytes": 32713,
+      "sha256": "4e8d9ea3fd82436ecaa531081dc176f7b360e94afea38c63ef38b1f14c4c6536"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\Geofabrik_Liaoning.html",
+      "url": "https://download.geofabrik.de/asia/china/liaoning.html",
+      "purpose": "核查道路下载产品而非现场完整性",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "http_status": 200,
+      "status": "downloaded",
+      "bytes": 16425,
+      "sha256": "4a678e0c8c3cf20ca4c8d2e888389fcedddab62d3da4ca8019a04be5697a7600"
+    },
+    {
+      "file": "D:\\Desktop\\jianmo\\11_本次公开补充\\Competition_2026.html",
+      "url": "https://cxcygl.bhu.edu.cn/comp/front/comp/info?id=2239",
+      "purpose": "仅核查赛事存在；此页没有具体赛题原文",
+      "generation_logic": "requests下载，核验状态及文件格式",
+      "retrieval_date": "2026-10-02",
+      "http_status": 200,
+      "status": "downloaded",
+      "bytes": 33434,
+      "sha256": "5cd75d7ca18a7e0d0dc3b411b12d4f16043cbfa4d8c0c8e030ea7370db27e7d4"
+    }
+  ]
+}

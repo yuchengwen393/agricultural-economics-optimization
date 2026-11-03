@@ -1,0 +1,3 @@
+﻿result,risk_proxy_mu,pool_routes,purpose,generation_logic
+restricted_LP,532.2611164378773,1040,新增Fig_08 受限最优性界绘图数据,将求解器负收益目标加loss_offset_mu，还原风险代理；LP为同池整数问题下界
+restricted_MILP,540.6862502367721,1040,新增Fig_08 受限最优性界绘图数据,将求解器负收益目标加loss_offset_mu，还原风险代理；LP为同池整数问题下界

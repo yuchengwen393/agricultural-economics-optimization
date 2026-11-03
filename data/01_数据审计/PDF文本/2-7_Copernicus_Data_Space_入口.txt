@@ -1,0 +1,257 @@
+用途：原始PDF检索与参数证据提取。生成逻辑：pypdf逐页抽取，表格须回查原件。
+来源：D:\Desktop\jianmo\02_玉米分布与耕地空间数据\2-7_Copernicus_Data_Space_入口.pdf
+W elcom e to Copernicus Data
+Space Ecosystem
+W elcome to the Copernicus Data Space Ecosystem , an open ecosystem  that provides free instant
+access to a wide range of data and services from  the Copernicus Sentinel m issions and m ore on our
+planet’s land, oceans and atm osphere.
+The Copernicus Data Space Ecosystem  not only ensures the continuity of the open and free access
+to Copernicus data but also extends the portfolio for data processing and data access possibilities.
+Delve into the data im m ediately via the Copernicus Browser or register to create an account and
+have an even better comprehensive exploration experience.
+SENTINEL-2 QUARTERLY MOSAIC
+Powered by
+Privacy on this site
+W e collect and process your data on this site to better understand how it is used. You can
+give your consent to all or selected purposes, or you can decline them  all. For m ore
+inform ation, see our privacy policy.
+Privacy policy
+Analytics
+W e'll collect inform ation about your visit to our site. It helps us understand how
+the site is used ‒ what's working, what m ight be broken and what we should
+im prove.
+Accept all Decline all
+Save Preferences
+Cases highlighted
+OUR NEXT EVENT
+Open-Earth-Monitor Global Workshop 2026
+07.-09.10.2026
+Barcelona, Spain
+More about this event
+Stay informed
+SEPTEMBER 29, 2026
+Privacy Policy Update
+General
+Read article
+SEPTEMBER 24, 2026
+Copernicus Data Space Ecosystem  (CDSE) Releases Annual Report 2025
+General
+Read article
+SEPTEMBER 7, 2026
+Upgrade of identity service [22.09.2026]
+GeneralService disruption System updates
+Read article
+Powered by
+Privacy on this site
+W e collect and process your data on this site to better understand how it is used. You can
+give your consent to all or selected purposes, or you can decline them  all. For m ore
+inform ation, see our privacy policy.
+Privacy policy
+Analytics
+W e'll collect inform ation about your visit to our site. It helps us understand how
+the site is used ‒ what's working, what m ight be broken and what we should
+im prove.
+Analysis tools at your fingertips
+Explore the data
+Copernicus Browser is a user-friendly web
+interface for viewing, analysing, and downloading
+satellite im agery directly from  any web browser.
+get started 
+NATURAL HAZARDSLAND MONITORINGAGRICULTURELAND COVERLAND MONITORING
+HIGHLIGHTED CASE
+Machine Learning for Forest
+Fire Mapping: Using openEO’s
+Random Forest process
+View this case in detail
+Powered by
+Privacy on this site
+W e collect and process your data on this site to better understand how it is used. You can
+give your consent to all or selected purposes, or you can decline them  all. For m ore
+inform ation, see our privacy policy.
+Privacy policy
+Analytics
+W e'll collect inform ation about your visit to our site. It helps us understand how
+the site is used ‒ what's working, what m ight be broken and what we should
+im prove.
+openEO services
+openEO is an open-source API that sim plifies
+cloud-based processing of Earth observation data.
+It provides a com m on language for accessing,
+sharing, and transform ing satellite data into
+actionable insights.
+discover more 
+Traceability
+The Traceability service ensures data integrity by
+allowing you to verify a product's authenticity,
+detect tam pering, and check if it has been m arked
+obsolete.
+discover more 
+Data W orkspace
+Data W orkspace is a web application to generate
+on-dem and Earth Observation products. It allows
+you to easily select processing algorithm s and
+configure relevant param eters.
+read more 
+Powered by
+Privacy on this site
+W e collect and process your data on this site to better understand how it is used. You can
+give your consent to all or selected purposes, or you can decline them  all. For m ore
+inform ation, see our privacy policy.
+Privacy policy
+Analytics
+W e'll collect inform ation about your visit to our site. It helps us understand how
+the site is used ‒ what's working, what m ight be broken and what we should
+im prove.
+Roadm ap
+JupyterLab
+The JupyterLab service is a web-based public
+virtual m achine environm ent that enables you to
+work directly with CDSE data and APIs without the
+need to download the data.
+discover more 
+Autom ate your analytics
+The CDSE provides a range of Application
+Program m ing Interfaces (APIs), including catalog
+access, product download, visualization, and
+processing services such as STAC, openEO, and
+Sentinel Hub APIs.
+explore the APIs 
+An ecosystem forEarth
+observation innovation
+A service to benefit institutional users, research,
+commercial sector as well as to every citizen of
+our planet.
+Explore the services (/ecosystem /services)
+CDSE Roadm ap overview
+Powered by
+Privacy on this site
+W e collect and process your data on this site to better understand how it is used. You can
+give your consent to all or selected purposes, or you can decline them  all. For m ore
+inform ation, see our privacy policy.
+Privacy policy
+Analytics
+W e'll collect inform ation about your visit to our site. It helps us understand how
+the site is used ‒ what's working, what m ight be broken and what we should
+im prove.
+Q1 - 2026 Q2 - 2026 Q3 - 2026
+ALLCopernicus Marine Monitoring ServiceGeneralNew dataNew feature
+Major functional update to CDSE STAC CatalogueNew feature
+Publishing the CDSE 2025 Annual Service ReportGeneral
+Copernicus Marine Environment Monitoring Service discovery via CDSE STAC
+Copernicus Marine Monitoring Service
+New Space Data Onboarding (discovery and visualisation)New data
+About Copernicus
+Copernicus is the European Union's
+flagship Earth observation initiative, designed
+to provide valuable inform ation services to
+citizens and organizations across the EU. It
+utilizes a com bination of satellite Earth
+observation and in-situ (non-space) data to
+m onitor and understand our planet and its
+environm ent.
+The data produced by Copernicus is of such
+high quality and relevance that it was
+transform ative for the Earth Observation
+industry, and its free and open data policy is
+the cornerstone of the program .
+The goal of the Copernicus program  is to
+m ake Earth observation-based solutions
+accessible to all, and to leverage the power of
+this data to drive positive change and
+preserve our planet.
+(h
+Powered by
+Privacy on this site
+W e collect and process your data on this site to better understand how it is used. You can
+give your consent to all or selected purposes, or you can decline them  all. For m ore
+inform ation, see our privacy policy.
+Privacy policy
+Analytics
+W e'll collect inform ation about your visit to our site. It helps us understand how
+the site is used ‒ what's working, what m ight be broken and what we should
+im prove.
+JANUARY 1, 2021 GERMANYLAND COVER, URBAN
+Septem ber 2026 desktop
+background
+We are getting ready to host you online and at
+Messe München for the CDSE User Summit on
+16th September 2026. To celebrate the occasion,
+this month’s image shows Munich using…
+The service team
+The Copernicus Data Space Ecosystem  is powered by leading European cloud and earth
+observation service providers.The com bination of the partners' experience and the guidance of ESA
+ensures a com prehensive, high-quality and user-friendly ecosystem .
+Powered by
+Privacy on this site
+W e collect and process your data on this site to better understand how it is used. You can
+give your consent to all or selected purposes, or you can decline them  all. For m ore
+inform ation, see our privacy policy.
+Privacy policy
+Analytics
+W e'll collect inform ation about your visit to our site. It helps us understand how
+the site is used ‒ what's working, what m ight be broken and what we should
+im prove.
+Related news
+SEPTEMBER 30, 2026
+Upgrade of identity service [01.10.2026]
+GeneralService disruption System updates
+Read article
+SEPTEMBER 30, 2026
+Copernicus Sentinel-3B unavailability notice for annual SLSTR Black Body
+Crossover Test planned between 29/09/2026 [DOY 272] and 01/10/2026
+[DOY 274]
+Operational ESA newsSentinel-3
+Read article
+SEPTEMBER 29, 2026
+Privacy Policy Update
+General
+Read article
+Data
+Sentinel
+Analysis
+APIs
+Powered by
+Privacy on this site
+W e collect and process your data on this site to better understand how it is used. You can
+give your consent to all or selected purposes, or you can decline them  all. For m ore
+inform ation, see our privacy policy.
+Privacy policy
+Analytics
+W e'll collect inform ation about your visit to our site. It helps us understand how
+the site is used ‒ what's working, what m ight be broken and what we should
+im prove.
+Copernicus Services
+Complem entary data
+Federated data sets
+Data W orkspace
+Traceability
+JupyterLab
+openEO
+Sentinel Hub
+Ecosystem & Services
+Services Registry
+Support & More
+Support
+Login
+N ews
+Dashboard
+Events
+Gallery
+Videos
+About
+Newsletter (/webform /newsletter)
+Do you have questions?
+Contact us via the about page (/about#contact-form )
+Term s and conditions
+Cookie Policy
+Privacy Policy
+ Powered by
+Privacy on this site
+W e collect and process your data on this site to better understand how it is used. You can
+give your consent to all or selected purposes, or you can decline them  all. For m ore
+inform ation, see our privacy policy.
+Privacy policy
+Analytics
+W e'll collect inform ation about your visit to our site. It helps us understand how
+the site is used ‒ what's working, what m ight be broken and what we should
+im prove.
